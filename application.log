@@ -1,0 +1,689 @@
+[2024-12-26T05:11:56.849Z]  INFO: Database Connected
+[2024-12-26T05:11:56.851Z]  INFO: Server is Initialized
+[2024-12-26T05:12:35.525Z]  INFO: Authenticating the User access token
+[2024-12-26T05:12:35.533Z]  INFO: Successfully authenticated user with username 'arthur_morgan'
+[2024-12-26T05:12:35.534Z]  INFO: Fetching user by username: arthur_morgan
+[2024-12-26T05:12:35.534Z]  INFO: Util: Attempting to fetch user with username: arthur_morgan
+[2024-12-26T05:12:35.561Z]  INFO: Util: Successfully fetched user with username: arthur_morgan
+[2024-12-26T05:12:35.562Z]  INFO: User with username 'arthur_morgan' fetched successfully
+[2024-12-26T05:14:39.633Z]  INFO: Processing token refresh request
+[2024-12-26T05:14:39.636Z]  INFO: Successfully refreshed access token for user 'arthur_morgan'
+[2024-12-26T05:20:14.696Z]  INFO: Attempting to register a new user: john_marston
+[2024-12-26T05:20:14.713Z]  INFO: Util: Attempting to add user with username: john_marston
+[2024-12-26T05:20:14.842Z]  INFO: Util: User john_marston added successfully
+[2024-12-26T05:20:14.843Z]  INFO: Util: Generating tokens for user with username 'john_marston'
+[2024-12-26T05:20:14.844Z]  INFO: Util: Successfully generated tokens for user with username 'john_marston'
+[2024-12-26T05:20:14.844Z]  INFO: User john_marston added successfully
+[2024-12-26T05:20:36.185Z]  INFO: Attempting to register a new user: jack_marston
+[2024-12-26T05:20:36.188Z]  INFO: Util: Attempting to add user with username: jack_marston
+[2024-12-26T05:20:36.309Z]  INFO: Util: User jack_marston added successfully
+[2024-12-26T05:20:36.309Z]  INFO: Util: Generating tokens for user with username 'jack_marston'
+[2024-12-26T05:20:36.310Z]  INFO: Util: Successfully generated tokens for user with username 'jack_marston'
+[2024-12-26T05:20:36.311Z]  INFO: User jack_marston added successfully
+[2024-12-26T05:20:44.356Z]  INFO: Attempting to register a new user: dutch_van_der_linde
+[2024-12-26T05:20:44.359Z]  INFO: Util: Attempting to add user with username: dutch_van_der_linde
+[2024-12-26T05:20:44.477Z]  INFO: Util: User dutch_van_der_linde added successfully
+[2024-12-26T05:20:44.477Z]  INFO: Util: Generating tokens for user with username 'dutch_van_der_linde'
+[2024-12-26T05:20:44.478Z]  INFO: Util: Successfully generated tokens for user with username 'dutch_van_der_linde'
+[2024-12-26T05:20:44.478Z]  INFO: User dutch_van_der_linde added successfully
+[2024-12-26T05:20:56.506Z]  INFO: Attempting to register a new user: micah_bell
+[2024-12-26T05:20:56.520Z]  INFO: Util: Attempting to add user with username: micah_bell
+[2024-12-26T05:20:56.629Z]  INFO: Util: User micah_bell added successfully
+[2024-12-26T05:20:56.630Z]  INFO: Util: Generating tokens for user with username 'micah_bell'
+[2024-12-26T05:20:56.631Z]  INFO: Util: Successfully generated tokens for user with username 'micah_bell'
+[2024-12-26T05:20:56.631Z]  INFO: User micah_bell added successfully
+[2024-12-26T05:21:07.701Z]  INFO: Attempting to register a new user: sadie_adler
+[2024-12-26T05:21:07.703Z]  INFO: Util: Attempting to add user with username: sadie_adler
+[2024-12-26T05:21:07.813Z]  INFO: Util: User sadie_adler added successfully
+[2024-12-26T05:21:07.813Z]  INFO: Util: Generating tokens for user with username 'sadie_adler'
+[2024-12-26T05:21:07.815Z]  INFO: Util: Successfully generated tokens for user with username 'sadie_adler'
+[2024-12-26T05:21:07.815Z]  INFO: User sadie_adler added successfully
+[2024-12-26T05:21:15.013Z]  INFO: Attempting to register a new user: charles_smith
+[2024-12-26T05:21:15.016Z]  INFO: Util: Attempting to add user with username: charles_smith
+[2024-12-26T05:21:15.127Z]  INFO: Util: User charles_smith added successfully
+[2024-12-26T05:21:15.127Z]  INFO: Util: Generating tokens for user with username 'charles_smith'
+[2024-12-26T05:21:15.129Z]  INFO: Util: Successfully generated tokens for user with username 'charles_smith'
+[2024-12-26T05:21:15.129Z]  INFO: User charles_smith added successfully
+[2024-12-26T05:22:01.985Z]  INFO: Attempting to register a new user: arthur_morgan
+[2024-12-26T05:22:01.990Z]  ERROR: User with username 'arthur_morgan' already exists
+[2024-12-26T05:32:26.604Z]  INFO: Attempting to register a new user: arthur_morga
+[2024-12-26T05:32:26.608Z]  INFO: Util: Attempting to add user with username: arthur_morga
+[2024-12-26T05:32:26.717Z]  INFO: Util: User arthur_morga added successfully
+[2024-12-26T05:32:26.717Z]  INFO: Util: Generating tokens for user with username 'arthur_morga'
+[2024-12-26T05:32:26.718Z]  INFO: Util: Successfully generated tokens for user with username 'arthur_morga'
+[2024-12-26T05:32:26.718Z]  INFO: User arthur_morga added successfully
+[2024-12-26T05:33:22.539Z]  INFO: multer was used
+[2024-12-26T05:33:22.539Z]  INFO: File type "image/jpeg" is allowed.
+[2024-12-26T05:33:22.540Z]  INFO: multer was called
+[2024-12-26T05:33:22.541Z]  INFO: Saving file to folder: C:\Users\ADMIN\OneDrive\CODES\WebD Codes\1. Projects\2. MiniProjects\2. Libraria\uploads\books
+[2024-12-26T05:33:22.541Z]  INFO: Cover image of a book with title Del The Psychology of Money is being stored as file delthepsychologyofmoney.jpg
+[2024-12-26T05:33:22.541Z]  INFO: delthepsychologyofmoney.jpg
+[2024-12-26T05:33:22.547Z]  INFO: Attempting to add book: Del The Psychology of Money
+[2024-12-26T05:33:22.556Z]  INFO: Util: Attempting to add book: Del The Psychology of Money
+[2024-12-26T05:33:22.563Z]  INFO: Util: Book Del The Psychology of Money added successfully
+[2024-12-26T05:33:22.563Z]  INFO: Book 'Del The Psychology of Money' added successfully
+[2024-12-26T05:34:32.309Z]  INFO: Database Connected
+[2024-12-26T05:34:32.312Z]  INFO: Server is Initialized
+[2024-12-26T05:34:53.743Z]  INFO: Database Connected
+[2024-12-26T05:34:53.744Z]  INFO: Server is Initialized
+[2024-12-26T05:36:51.035Z]  INFO: Database Connected
+[2024-12-26T05:36:51.039Z]  INFO: Server is Initialized
+[2024-12-26T05:36:55.282Z]  INFO: Database Connected
+[2024-12-26T05:36:55.283Z]  INFO: Server is Initialized
+[2024-12-26T05:37:45.806Z]  INFO: Attempting to add a new record
+[2024-12-26T05:37:45.808Z]  INFO: Util: Attempting to fetch user with username: arthur_morga
+[2024-12-26T05:37:45.821Z]  INFO: Util: Successfully fetched user with username: arthur_morga
+[2024-12-26T05:37:45.822Z]  INFO: Util: Attempting to fetch book by title: Del The Psychology of Money
+[2024-12-26T05:37:45.824Z]  INFO: Util: Book with title 'Del The Psychology of Money' successfully fetched
+[2024-12-26T05:37:45.824Z]  INFO: Util: Attempting to find records for user: arthur_morga
+[2024-12-26T05:37:45.826Z]  INFO: Util: Successfully retrieved records for user: arthur_morga
+[2024-12-26T05:37:45.826Z]  INFO: Util: Attempting to find record for user: arthur_morga with book title: Del The Psychology of Money
+[2024-12-26T05:37:45.828Z]  INFO: Util: Successfully retrieved record for user: arthur_morga with book title: Del The Psychology of Money
+[2024-12-26T05:37:45.828Z]  INFO: Util: Attempting to add a new record for user: arthur_morga and book: Del The Psychology of Money
+[2024-12-26T05:37:45.828Z]  ERROR: Util: Due date must be after Delivery date
+[2024-12-26T05:37:45.829Z]  ERROR: Error while adding record - Error while creating new Record - Due date must be after Delivery date
+[2024-12-26T05:38:06.377Z]  INFO: Database Connected
+[2024-12-26T05:38:06.378Z]  INFO: Server is Initialized
+[2024-12-26T05:38:11.723Z]  INFO: Attempting to add a new record
+[2024-12-26T05:38:11.724Z]  INFO: Util: Attempting to fetch user with username: arthur_morga
+[2024-12-26T05:38:11.732Z]  INFO: Util: Successfully fetched user with username: arthur_morga
+[2024-12-26T05:38:11.733Z]  INFO: Util: Attempting to fetch book by title: Del The Psychology of Money
+[2024-12-26T05:38:11.739Z]  INFO: Util: Book with title 'Del The Psychology of Money' successfully fetched
+[2024-12-26T05:38:11.739Z]  INFO: Util: Attempting to find records for user: arthur_morga
+[2024-12-26T05:38:11.742Z]  INFO: Util: Successfully retrieved records for user: arthur_morga
+[2024-12-26T05:38:11.742Z]  INFO: Util: Attempting to find record for user: arthur_morga with book title: Del The Psychology of Money
+[2024-12-26T05:38:11.744Z]  INFO: Util: Successfully retrieved record for user: arthur_morga with book title: Del The Psychology of Money
+[2024-12-26T05:38:11.745Z]  INFO: Util: Attempting to add a new record for user: arthur_morga and book: Del The Psychology of Money
+[2024-12-26T05:38:11.745Z]  INFO: Util: Attempting to fetch book by title: Del The Psychology of Money
+[2024-12-26T05:38:11.748Z]  INFO: Util: Book with title 'Del The Psychology of Money' successfully fetched
+[2024-12-26T05:38:11.761Z]  INFO: Util: Attempting to update borrow record for user: arthur_morga
+[2024-12-26T05:38:11.777Z]  INFO: Util: User arthur_morga successfully updated with borrowed book: 'Del The Psychology of Money'
+[2024-12-26T05:38:11.777Z]  INFO: Util: Attempting to update borrow record for book: 'Del The Psychology of Money' by user: 'arthur_morga'
+[2024-12-26T05:38:11.786Z]  INFO: Util: Book 'Del The Psychology of Money' has been successfully borrowed by user 'arthur_morga'
+[2024-12-26T05:38:11.786Z]  INFO: Util: Successfully added a new record for user: arthur_morga and book: Del The Psychology of Money
+[2024-12-26T05:38:11.786Z]  INFO: Record successfully added
+[2024-12-26T05:38:18.460Z]  INFO: Attempting to add a new record
+[2024-12-26T05:38:18.461Z]  INFO: Util: Attempting to fetch user with username: arthur_morga
+[2024-12-26T05:38:18.465Z]  INFO: Util: Successfully fetched user with username: arthur_morga
+[2024-12-26T05:38:18.465Z]  INFO: Util: Attempting to fetch book by title: Del The Psychology of Money
+[2024-12-26T05:38:18.467Z]  INFO: Util: Book with title 'Del The Psychology of Money' successfully fetched
+[2024-12-26T05:38:18.467Z]  INFO: Util: Attempting to find records for user: arthur_morga
+[2024-12-26T05:38:18.469Z]  INFO: Util: Successfully retrieved records for user: arthur_morga
+[2024-12-26T05:38:18.469Z]  INFO: User with username 'arthur_morga' already has a book with title 'Del The Psychology of Money'
+[2024-12-26T05:38:42.798Z]  INFO: Attempting to add a new record
+[2024-12-26T05:38:42.798Z]  INFO: Util: Attempting to fetch user with username: arthur_morga
+[2024-12-26T05:38:42.801Z]  INFO: Util: Successfully fetched user with username: arthur_morga
+[2024-12-26T05:38:42.801Z]  INFO: Util: Attempting to fetch book by title: Del The Psychology of Money
+[2024-12-26T05:38:42.804Z]  INFO: Util: Book with title 'Del The Psychology of Money' successfully fetched
+[2024-12-26T05:38:42.804Z]  INFO: Util: Attempting to find records for user: arthur_morga
+[2024-12-26T05:38:42.806Z]  INFO: Util: Successfully retrieved records for user: arthur_morga
+[2024-12-26T05:38:42.806Z]  INFO: User with username 'arthur_morga' already has a book with title 'Del The Psychology of Money'
+[2024-12-26T05:39:32.558Z]  INFO: Attempting to find record by username: arthur_morga and book title: Del The Psychology of Money
+[2024-12-26T05:39:32.559Z]  INFO: Util: Attempting to find record for user: arthur_morga with book title: Del The Psychology of Money
+[2024-12-26T05:39:32.561Z]  INFO: Util: Successfully retrieved record for user: arthur_morga with book title: Del The Psychology of Money
+[2024-12-26T05:39:32.562Z]  INFO: Record found for user 'arthur_morga' with book title 'Del The Psychology of Money'
+[2024-12-26T05:39:53.981Z]  INFO: Attempting to add a new record
+[2024-12-26T05:39:53.981Z]  INFO: Util: Attempting to fetch user with username: arthur_morgan
+[2024-12-26T05:39:53.984Z]  INFO: Util: Successfully fetched user with username: arthur_morgan
+[2024-12-26T05:39:53.984Z]  INFO: Util: Attempting to fetch book by title: The Psychology of Money
+[2024-12-26T05:39:53.986Z]  INFO: Util: Book with title 'The Psychology of Money' successfully fetched
+[2024-12-26T05:39:53.986Z]  INFO: Util: Attempting to find records for user: arthur_morgan
+[2024-12-26T05:39:53.988Z]  INFO: Util: Successfully retrieved records for user: arthur_morgan
+[2024-12-26T05:39:53.988Z]  INFO: Util: Attempting to find record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:39:53.989Z]  INFO: Util: Successfully retrieved record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:39:53.989Z]  INFO: Util: Attempting to add a new record for user: arthur_morgan and book: The Psychology of Money
+[2024-12-26T05:39:53.989Z]  INFO: Util: Attempting to fetch book by title: The Psychology of Money
+[2024-12-26T05:39:53.990Z]  INFO: Util: Book with title 'The Psychology of Money' successfully fetched
+[2024-12-26T05:39:54.003Z]  INFO: Util: Attempting to update borrow record for user: arthur_morgan
+[2024-12-26T05:39:54.009Z]  INFO: Util: User arthur_morgan successfully updated with borrowed book: 'The Psychology of Money'
+[2024-12-26T05:39:54.009Z]  INFO: Util: Attempting to update borrow record for book: 'The Psychology of Money' by user: 'arthur_morgan'
+[2024-12-26T05:39:54.011Z]  INFO: Util: Book 'The Psychology of Money' has been successfully borrowed by user 'arthur_morgan'
+[2024-12-26T05:39:54.011Z]  INFO: Util: Successfully added a new record for user: arthur_morgan and book: The Psychology of Money
+[2024-12-26T05:39:54.011Z]  INFO: Record successfully added
+[2024-12-26T05:40:03.441Z]  INFO: Attempting to add a new record
+[2024-12-26T05:40:03.441Z]  INFO: Util: Attempting to fetch user with username: arthur_morgan
+[2024-12-26T05:40:03.443Z]  INFO: Util: Successfully fetched user with username: arthur_morgan
+[2024-12-26T05:40:03.444Z]  INFO: Util: Attempting to fetch book by title: Ikigai
+[2024-12-26T05:40:03.446Z]  INFO: Util: Book with title 'Ikigai' successfully fetched
+[2024-12-26T05:40:03.446Z]  INFO: Util: Attempting to find records for user: arthur_morgan
+[2024-12-26T05:40:03.447Z]  INFO: Util: Successfully retrieved records for user: arthur_morgan
+[2024-12-26T05:40:03.447Z]  INFO: User with username 'arthur_morgan' already has a book with title 'The Psychology of Money'
+[2024-12-26T05:40:25.476Z]  INFO: Attempting to find record by username: arthur_morgan and book title: The Psychology of Money
+[2024-12-26T05:40:25.476Z]  INFO: Util: Attempting to find record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:40:25.479Z]  INFO: Util: Successfully retrieved record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:40:25.479Z]  INFO: Record found for user 'arthur_morgan' with book title 'The Psychology of Money'
+[2024-12-26T05:41:03.154Z]  INFO: Attempting to find records
+[2024-12-26T05:41:03.155Z]  INFO: Util: Attempting to find all records
+[2024-12-26T05:41:03.158Z]  INFO: Util: Successfully retrieved all records
+[2024-12-26T05:41:03.158Z]  INFO: Records found successfully
+[2024-12-26T05:41:48.991Z]  INFO: Database Connected
+[2024-12-26T05:41:48.993Z]  INFO: Server is Initialized
+[2024-12-26T05:43:51.214Z]  INFO: Database Connected
+[2024-12-26T05:43:51.215Z]  INFO: Server is Initialized
+[2024-12-26T05:43:58.345Z]  INFO: Attempting to update borrow record for user: arthur_morgan and book title: The Psychology of Mone
+[2024-12-26T05:43:58.346Z]  INFO: Util: Attempting to find record for user: arthur_morgan with book title: The Psychology of Mone
+[2024-12-26T05:43:58.352Z]  INFO: Util: Successfully retrieved record for user: arthur_morgan with book title: The Psychology of Mone
+[2024-12-26T05:43:58.353Z]  INFO: No record found for user 'arthur_morgan' with book title 'The Psychology of Mone'
+[2024-12-26T05:44:18.276Z]  INFO: Attempting to update borrow record for user: arthur_morgan and book title: The Psychology of Money
+[2024-12-26T05:44:18.277Z]  INFO: Util: Attempting to find record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:44:18.282Z]  INFO: Util: Successfully retrieved record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:44:18.283Z]  INFO: User 'arthur_morgan' still has the book 'The Psychology of Money'
+[2024-12-26T05:44:27.503Z]  INFO: Attempting to update return record for user: arthur_morgan and book title: The Psychology of Money
+[2024-12-26T05:44:27.503Z]  INFO: Util: Attempting to find record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:44:27.508Z]  INFO: Util: Successfully retrieved record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:44:27.508Z]  INFO: Util: Attempting to update return record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:44:27.521Z]  INFO: Util: Attempting to update return record for user: arthur_morgan
+[2024-12-26T05:44:27.527Z]  INFO: Util: User arthur_morgan has successfully returned the book
+[2024-12-26T05:44:27.528Z]  INFO: Util: Attempting to update return record for book: 'The Psychology of Money' by user: 'arthur_morgan'
+[2024-12-26T05:44:27.532Z]  INFO: Util: Book 'The Psychology of Money' has been successfully returned by user 'arthur_morgan'
+[2024-12-26T05:44:27.533Z]  INFO: Util: Successfully updated return record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:44:27.533Z]  INFO: Record updated successfully for user 'arthur_morgan' with book title 'The Psychology of Money'
+[2024-12-26T05:45:19.651Z]  INFO: Attempting to update borrow record for user: arthur_morgan and book title: The Psychology of Money
+[2024-12-26T05:45:19.652Z]  INFO: Util: Attempting to find record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:45:19.655Z]  INFO: Util: Successfully retrieved record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:45:19.655Z]  INFO: Util: Attempting to update borrow record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:45:19.658Z]  INFO: Util: Attempting to fetch book by title: The Psychology of Money
+[2024-12-26T05:45:19.661Z]  INFO: Util: Book with title 'The Psychology of Money' successfully fetched
+[2024-12-26T05:45:19.667Z]  INFO: Util: Attempting to update borrow record for user: arthur_morgan
+[2024-12-26T05:45:19.667Z]  INFO: Util: Attempting to fetch user with username: arthur_morgan
+[2024-12-26T05:45:19.670Z]  INFO: Util: Successfully fetched user with username: arthur_morgan
+[2024-12-26T05:45:19.673Z]  INFO: Util: User arthur_morgan successfully updated with borrowed book: 'The Psychology of Money'
+[2024-12-26T05:45:19.673Z]  INFO: Util: Attempting to update borrow record for book: 'The Psychology of Money' by user: 'arthur_morgan'
+[2024-12-26T05:45:19.684Z]  INFO: Util: Book 'The Psychology of Money' has been successfully borrowed by user 'arthur_morgan'
+[2024-12-26T05:45:19.684Z]  INFO: Util: Successfully updated borrow record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:45:19.685Z]  INFO: Record updated successfully for user 'arthur_morgan' with book title 'The Psychology of Money'
+[2024-12-26T05:46:00.369Z]  INFO: Attempting to update return record for user: arthur_morgan and book title: The Psychology of Money
+[2024-12-26T05:46:00.369Z]  INFO: Util: Attempting to find record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:46:00.372Z]  INFO: Util: Successfully retrieved record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:46:00.372Z]  INFO: Util: Attempting to update return record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:46:00.376Z]  INFO: Util: Attempting to update return record for user: arthur_morgan
+[2024-12-26T05:46:00.378Z]  INFO: Util: User arthur_morgan has successfully returned the book
+[2024-12-26T05:46:00.378Z]  INFO: Util: Attempting to update return record for book: 'The Psychology of Money' by user: 'arthur_morgan'
+[2024-12-26T05:46:00.380Z]  INFO: Util: Book 'The Psychology of Money' has been successfully returned by user 'arthur_morgan'
+[2024-12-26T05:46:00.380Z]  INFO: Util: Successfully updated return record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:46:00.380Z]  INFO: Record updated successfully for user 'arthur_morgan' with book title 'The Psychology of Money'
+[2024-12-26T05:46:03.700Z]  INFO: Attempting to update return record for user: arthur_morgan and book title: The Psychology of Money
+[2024-12-26T05:46:03.700Z]  INFO: Util: Attempting to find record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:46:03.702Z]  INFO: Util: Successfully retrieved record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:46:03.702Z]  INFO: User 'arthur_morgan' does not have the book 'The Psychology of Money'
+[2024-12-26T05:46:25.663Z]  INFO: Attempting to update borrow record for user: arthur_morgan and book title: The Psychology of Money
+[2024-12-26T05:46:25.664Z]  INFO: Util: Attempting to find record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:46:25.667Z]  INFO: Util: Successfully retrieved record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:46:25.668Z]  INFO: Util: Attempting to update borrow record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:46:25.670Z]  INFO: Util: Attempting to fetch book by title: The Psychology of Money
+[2024-12-26T05:46:25.672Z]  INFO: Util: Book with title 'The Psychology of Money' successfully fetched
+[2024-12-26T05:46:25.676Z]  INFO: Util: Attempting to update borrow record for user: arthur_morgan
+[2024-12-26T05:46:25.676Z]  INFO: Util: Attempting to fetch user with username: arthur_morgan
+[2024-12-26T05:46:25.678Z]  INFO: Util: Successfully fetched user with username: arthur_morgan
+[2024-12-26T05:46:25.681Z]  INFO: Util: User arthur_morgan successfully updated with borrowed book: 'The Psychology of Money'
+[2024-12-26T05:46:25.681Z]  INFO: Util: Attempting to update borrow record for book: 'The Psychology of Money' by user: 'arthur_morgan'
+[2024-12-26T05:46:25.700Z]  INFO: Util: Book 'The Psychology of Money' has been successfully borrowed by user 'arthur_morgan'
+[2024-12-26T05:46:25.700Z]  INFO: Util: Successfully updated borrow record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:46:25.700Z]  INFO: Record updated successfully for user 'arthur_morgan' with book title 'The Psychology of Money'
+[2024-12-26T05:47:43.890Z]  INFO: Attempting to update return record for user: arthur_morgan and book title: The Psychology of Money
+[2024-12-26T05:47:43.890Z]  INFO: Util: Attempting to find record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:47:43.893Z]  INFO: Util: Successfully retrieved record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:47:43.893Z]  INFO: Util: Attempting to update return record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:47:43.897Z]  INFO: Util: Attempting to update return record for user: arthur_morgan
+[2024-12-26T05:47:43.900Z]  INFO: Util: User arthur_morgan has successfully returned the book
+[2024-12-26T05:47:43.900Z]  INFO: Util: Attempting to update return record for book: 'The Psychology of Money' by user: 'arthur_morgan'
+[2024-12-26T05:47:43.901Z]  INFO: Util: Book 'The Psychology of Money' has been successfully returned by user 'arthur_morgan'
+[2024-12-26T05:47:43.901Z]  INFO: Util: Successfully updated return record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:47:43.901Z]  INFO: Record updated successfully for user 'arthur_morgan' with book title 'The Psychology of Money'
+[2024-12-26T05:48:12.341Z]  INFO: Attempting to update borrow record for user: arthur_morgan and book title: The Psychology of Money
+[2024-12-26T05:48:12.342Z]  INFO: Util: Attempting to find record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:48:12.344Z]  INFO: Util: Successfully retrieved record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:48:12.344Z]  INFO: Util: Attempting to update borrow record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:48:12.345Z]  INFO: Util: Attempting to fetch book by title: The Psychology of Money
+[2024-12-26T05:48:12.346Z]  INFO: Util: Book with title 'The Psychology of Money' successfully fetched
+[2024-12-26T05:48:12.349Z]  INFO: Util: Attempting to update borrow record for user: arthur_morgan
+[2024-12-26T05:48:12.349Z]  INFO: Util: Attempting to fetch user with username: arthur_morgan
+[2024-12-26T05:48:12.351Z]  INFO: Util: Successfully fetched user with username: arthur_morgan
+[2024-12-26T05:48:12.355Z]  INFO: Util: User arthur_morgan successfully updated with borrowed book: 'The Psychology of Money'
+[2024-12-26T05:48:12.356Z]  INFO: Util: Attempting to update borrow record for book: 'The Psychology of Money' by user: 'arthur_morgan'
+[2024-12-26T05:48:12.363Z]  INFO: Util: Book 'The Psychology of Money' has been successfully borrowed by user 'arthur_morgan'
+[2024-12-26T05:48:12.363Z]  INFO: Util: Successfully updated borrow record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:48:12.363Z]  INFO: Record updated successfully for user 'arthur_morgan' with book title 'The Psychology of Money'
+[2024-12-26T05:48:14.819Z]  INFO: Attempting to update return record for user: arthur_morgan and book title: The Psychology of Money
+[2024-12-26T05:48:14.819Z]  INFO: Util: Attempting to find record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:48:14.822Z]  INFO: Util: Successfully retrieved record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:48:14.822Z]  INFO: Util: Attempting to update return record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:48:14.825Z]  INFO: Util: Attempting to update return record for user: arthur_morgan
+[2024-12-26T05:48:14.826Z]  INFO: Util: User arthur_morgan has successfully returned the book
+[2024-12-26T05:48:14.826Z]  INFO: Util: Attempting to update return record for book: 'The Psychology of Money' by user: 'arthur_morgan'
+[2024-12-26T05:48:14.828Z]  INFO: Util: Book 'The Psychology of Money' has been successfully returned by user 'arthur_morgan'
+[2024-12-26T05:48:14.828Z]  INFO: Util: Successfully updated return record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:48:14.828Z]  INFO: Record updated successfully for user 'arthur_morgan' with book title 'The Psychology of Money'
+[2024-12-26T05:48:17.324Z]  INFO: Attempting to update borrow record for user: arthur_morgan and book title: The Psychology of Money
+[2024-12-26T05:48:17.324Z]  INFO: Util: Attempting to find record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:48:17.326Z]  INFO: Util: Successfully retrieved record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:48:17.326Z]  INFO: Util: Attempting to update borrow record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:48:17.327Z]  INFO: Util: Attempting to fetch book by title: The Psychology of Money
+[2024-12-26T05:48:17.328Z]  INFO: Util: Book with title 'The Psychology of Money' successfully fetched
+[2024-12-26T05:48:17.330Z]  INFO: Util: Attempting to update borrow record for user: arthur_morgan
+[2024-12-26T05:48:17.330Z]  INFO: Util: Attempting to fetch user with username: arthur_morgan
+[2024-12-26T05:48:17.333Z]  INFO: Util: Successfully fetched user with username: arthur_morgan
+[2024-12-26T05:48:17.336Z]  INFO: Util: User arthur_morgan successfully updated with borrowed book: 'The Psychology of Money'
+[2024-12-26T05:48:17.336Z]  INFO: Util: Attempting to update borrow record for book: 'The Psychology of Money' by user: 'arthur_morgan'
+[2024-12-26T05:48:17.340Z]  INFO: Util: Book 'The Psychology of Money' has been successfully borrowed by user 'arthur_morgan'
+[2024-12-26T05:48:17.340Z]  INFO: Util: Successfully updated borrow record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:48:17.340Z]  INFO: Record updated successfully for user 'arthur_morgan' with book title 'The Psychology of Money'
+[2024-12-26T05:49:29.876Z]  INFO: Attempting to find records by username: arthur_morgan
+[2024-12-26T05:49:29.876Z]  INFO: Util: Attempting to find records for user: arthur_morgan
+[2024-12-26T05:49:29.879Z]  INFO: Util: Successfully retrieved records for user: arthur_morgan
+[2024-12-26T05:49:29.879Z]  INFO: Records found for user with username: 'arthur_morgan'
+[2024-12-26T05:50:28.836Z]  INFO: Attempting to find records by book title: The Psychology of Money
+[2024-12-26T05:50:28.836Z]  INFO: Util: Attempting to find records for book title: The Psychology of Money
+[2024-12-26T05:50:28.840Z]  INFO: Util: Successfully retrieved records for book title: The Psychology of Money
+[2024-12-26T05:50:28.840Z]  INFO: Records found for book with title: 'The Psychology of Money'
+[2024-12-26T05:53:26.789Z]  INFO: Attempting to update borrow record for user: arthur_morgan and book title: The Psychology of Money
+[2024-12-26T05:53:26.790Z]  INFO: Util: Attempting to find record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:53:26.791Z]  INFO: Util: Successfully retrieved record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:53:26.792Z]  INFO: User 'arthur_morgan' still has the book 'The Psychology of Money'
+[2024-12-26T05:53:32.540Z]  INFO: Attempting to delete record for user: arthur_morgan and book title: The Psychology of Money
+[2024-12-26T05:53:32.540Z]  INFO: Util: Attempting to delete record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:53:32.540Z]  INFO: Util: Attempting to find record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:53:32.543Z]  INFO: Util: Successfully retrieved record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:53:32.543Z]  INFO: deleteRecordUtil condition satisfied
+[2024-12-26T05:53:32.543Z]  INFO: Util: Attempting to update return record for user: arthur_morgan
+[2024-12-26T05:53:32.557Z]  INFO: Util: User arthur_morgan has successfully returned the book
+[2024-12-26T05:53:32.557Z]  INFO: Util: Attempting to update return record for book: 'The Psychology of Money' by user: 'arthur_morgan'
+[2024-12-26T05:53:32.559Z]  INFO: Util: Book 'The Psychology of Money' has been successfully returned by user 'arthur_morgan'
+[2024-12-26T05:53:32.562Z]  INFO: Util: Successfully deleted record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:53:32.562Z]  INFO: Record deleted successfully for user 'arthur_morgan' with book title 'The Psychology of Money'
+[2024-12-26T05:53:46.526Z]  INFO: Attempting to delete record for user: arthur_morgan and book title: The Psychology of Money
+[2024-12-26T05:53:46.526Z]  INFO: Util: Attempting to delete record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:53:46.526Z]  INFO: Util: Attempting to find record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:53:46.528Z]  INFO: Util: Successfully retrieved record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T05:53:46.528Z]  ERROR: Util: Error while deleting record - Cannot read properties of null (reading 'bookWithUser')
+[2024-12-26T05:53:46.528Z]  ERROR: Error occurred while deleting record for user: arthur_morgan and book title: The Psychology of Money - Error while deleting record - Cannot read properties of null (reading 'bookWithUser')
+[2024-12-26T05:56:57.831Z]  INFO: Database Connected
+[2024-12-26T05:56:57.835Z]  INFO: Server is Initialized
+[2024-12-26T05:58:08.250Z]  INFO: Database Connected
+[2024-12-26T05:58:08.254Z]  INFO: Server is Initialized
+[2024-12-26T05:58:45.969Z]  INFO: Database Connected
+[2024-12-26T05:58:45.971Z]  INFO: Server is Initialized
+[2024-12-26T06:00:15.224Z]  INFO: Database Connected
+[2024-12-26T06:00:15.225Z]  INFO: Server is Initialized
+[2024-12-26T06:00:38.533Z]  INFO: Database Connected
+[2024-12-26T06:00:38.537Z]  INFO: Server is Initialized
+[2024-12-26T06:01:01.002Z]  INFO: Database Connected
+[2024-12-26T06:01:01.004Z]  INFO: Server is Initialized
+[2024-12-26T06:01:08.081Z]  INFO: Database Connected
+[2024-12-26T06:01:08.083Z]  INFO: Server is Initialized
+[2024-12-26T06:04:01.536Z]  INFO: Database Connected
+[2024-12-26T06:04:01.537Z]  INFO: Server is Initialized
+[2024-12-26T06:04:24.249Z]  INFO: Attempting to add a new record
+[2024-12-26T06:04:24.249Z]  INFO: Util: Attempting to fetch user with username: arthur_morgan
+[2024-12-26T06:04:24.260Z]  INFO: Util: Successfully fetched user with username: arthur_morgan
+[2024-12-26T06:04:24.260Z]  INFO: Util: Attempting to fetch book by title: Ikigai
+[2024-12-26T06:04:24.262Z]  INFO: Util: Book with title 'Ikigai' successfully fetched
+[2024-12-26T06:04:24.263Z]  INFO: Util: Attempting to find records for user: arthur_morgan
+[2024-12-26T06:04:24.264Z]  INFO: Util: Successfully retrieved records for user: arthur_morgan
+[2024-12-26T06:04:24.265Z]  INFO: Util: Attempting to find record for user: arthur_morgan with book title: Ikigai
+[2024-12-26T06:04:24.266Z]  INFO: Util: Successfully retrieved record for user: arthur_morgan with book title: Ikigai
+[2024-12-26T06:04:24.266Z]  INFO: Util: Attempting to add a new record for user: arthur_morgan and book: Ikigai
+[2024-12-26T06:04:24.267Z]  INFO: Util: Attempting to fetch book by title: Ikigai
+[2024-12-26T06:04:24.269Z]  INFO: Util: Book with title 'Ikigai' successfully fetched
+[2024-12-26T06:04:24.283Z]  INFO: Util: Attempting to update borrow record for user: arthur_morgan
+[2024-12-26T06:04:24.292Z]  INFO: Util: User arthur_morgan successfully updated with borrowed book: 'Ikigai'
+[2024-12-26T06:04:24.292Z]  INFO: Util: Attempting to update borrow record for book: 'Ikigai' by user: 'arthur_morgan'
+[2024-12-26T06:04:24.295Z]  INFO: Util: Book 'Ikigai' has been successfully borrowed by user 'arthur_morgan'
+[2024-12-26T06:04:24.295Z]  INFO: Util: Successfully added a new record for user: arthur_morgan and book: Ikigai
+[2024-12-26T06:04:24.295Z]  INFO: Record successfully added
+[2024-12-26T06:04:38.492Z]  INFO: Attempting to delete record for user: arthur_morgan and book title: Ikigai
+[2024-12-26T06:04:38.496Z]  ERROR: Could not Delete the record because user with username 'arthur_morgan' still has book with title 'Ikigai'
+[2024-12-26T06:06:58.074Z]  INFO: Attempting to find record by username: arthur_morgan and book title: Ikigai
+[2024-12-26T06:06:58.075Z]  INFO: Util: Attempting to find record for user: arthur_morgan with book title: Ikigai
+[2024-12-26T06:06:58.080Z]  INFO: Util: Successfully retrieved record for user: arthur_morgan with book title: Ikigai
+[2024-12-26T06:06:58.080Z]  INFO: Record found for user 'arthur_morgan' with book title 'Ikigai'
+[2024-12-26T06:07:11.293Z]  INFO: Attempting to find records by book title: Ikigai
+[2024-12-26T06:07:11.293Z]  INFO: Util: Attempting to find records for book title: Ikigai
+[2024-12-26T06:07:11.299Z]  INFO: Util: Successfully retrieved records for book title: Ikigai
+[2024-12-26T06:07:11.300Z]  INFO: Records found for book with title: 'Ikigai'
+[2024-12-26T06:07:26.388Z]  INFO: Attempting to update borrow record for user: arthur_morgan and book title: Ikigai
+[2024-12-26T06:07:26.389Z]  INFO: Util: Attempting to find record for user: arthur_morgan with book title: Ikigai
+[2024-12-26T06:07:26.395Z]  INFO: Util: Successfully retrieved record for user: arthur_morgan with book title: Ikigai
+[2024-12-26T06:07:26.395Z]  INFO: User 'arthur_morgan' still has the book 'Ikigai'
+[2024-12-26T06:07:49.163Z]  INFO: Attempting to update return record for user: arthur_morgan and book title: Ikigai
+[2024-12-26T06:07:49.163Z]  INFO: Util: Attempting to find record for user: arthur_morgan with book title: Ikigai
+[2024-12-26T06:07:49.168Z]  INFO: Util: Successfully retrieved record for user: arthur_morgan with book title: Ikigai
+[2024-12-26T06:07:49.169Z]  INFO: Util: Attempting to update return record for user: arthur_morgan with book title: Ikigai
+[2024-12-26T06:07:49.219Z]  INFO: Util: Attempting to update return record for user: arthur_morgan
+[2024-12-26T06:07:49.224Z]  INFO: Util: User arthur_morgan has successfully returned the book
+[2024-12-26T06:07:49.225Z]  INFO: Util: Attempting to update return record for book: 'Ikigai' by user: 'arthur_morgan'
+[2024-12-26T06:07:49.230Z]  INFO: Util: Book 'Ikigai' has been successfully returned by user 'arthur_morgan'
+[2024-12-26T06:07:49.231Z]  INFO: Util: Successfully updated return record for user: arthur_morgan with book title: Ikigai
+[2024-12-26T06:07:49.231Z]  INFO: Record updated successfully for user 'arthur_morgan' with book title 'Ikigai'
+[2024-12-26T06:07:58.402Z]  INFO: Attempting to delete record for user: arthur_morgan and book title: Ikigai
+[2024-12-26T06:07:58.407Z]  INFO: Util: Attempting to delete record for user: arthur_morgan with book title: Ikigai
+[2024-12-26T06:07:58.412Z]  INFO: Util: Successfully deleted record for user: arthur_morgan with book title: Ikigai
+[2024-12-26T06:07:58.412Z]  INFO: Record deleted successfully for user 'arthur_morgan' with book title 'Ikigai'
+[2024-12-26T06:10:34.362Z]  INFO: Database Connected
+[2024-12-26T06:10:34.365Z]  INFO: Server is Initialized
+[2024-12-26T06:15:59.944Z]  INFO: Database Connected
+[2024-12-26T06:15:59.952Z]  INFO: Server is Initialized
+[2024-12-26T06:16:29.645Z]  INFO: Database Connected
+[2024-12-26T06:16:29.650Z]  INFO: Server is Initialized
+[2024-12-26T06:16:30.646Z]  INFO: Attempting to delete book with title: 'Del The Psychology of Money'
+[2024-12-26T06:16:30.648Z]  INFO: Util: Attempting to fetch book by title: Del The Psychology of Money
+[2024-12-26T06:16:30.675Z]  INFO: Util: Book with title 'Del The Psychology of Money' successfully fetched
+[2024-12-26T06:16:30.676Z]  ERROR: Could not delete the book with title 'Del The Psychology of Money' because it is borrowed by users
+[2024-12-26T06:17:10.602Z]  INFO: Attempting to update return record for user: arthur_morga and book title: Del The Psychology of Money
+[2024-12-26T06:17:10.603Z]  INFO: Util: Attempting to find record for user: arthur_morga with book title: Del The Psychology of Money
+[2024-12-26T06:17:10.611Z]  INFO: Util: Successfully retrieved record for user: arthur_morga with book title: Del The Psychology of Money
+[2024-12-26T06:17:10.612Z]  INFO: Util: Attempting to update return record for user: arthur_morga with book title: Del The Psychology of Money
+[2024-12-26T06:17:10.635Z]  INFO: Util: Attempting to update return record for user: arthur_morga
+[2024-12-26T06:17:10.642Z]  INFO: Util: User arthur_morga has successfully returned the book
+[2024-12-26T06:17:10.642Z]  INFO: Util: Attempting to update return record for book: 'Del The Psychology of Money' by user: 'arthur_morga'
+[2024-12-26T06:17:10.650Z]  INFO: Util: Book 'Del The Psychology of Money' has been successfully returned by user 'arthur_morga'
+[2024-12-26T06:17:10.651Z]  INFO: Util: Successfully updated return record for user: arthur_morga with book title: Del The Psychology of Money
+[2024-12-26T06:17:10.651Z]  INFO: Record updated successfully for user 'arthur_morga' with book title 'Del The Psychology of Money'
+[2024-12-26T06:17:14.876Z]  INFO: Attempting to delete book with title: 'Del The Psychology of Money'
+[2024-12-26T06:17:14.877Z]  INFO: Util: Attempting to fetch book by title: Del The Psychology of Money
+[2024-12-26T06:17:14.882Z]  INFO: Util: Book with title 'Del The Psychology of Money' successfully fetched
+[2024-12-26T06:17:14.883Z]  INFO: Util: Attempting to delete book with title: 'Del The Psychology of Money'
+[2024-12-26T06:17:14.934Z]  INFO: Util: Book 'Del The Psychology of Money' deleted successfully
+[2024-12-26T06:17:14.935Z]  INFO: Successfully deleted book with title: 'Del The Psychology of Money'
+[2024-12-26T06:18:04.289Z]  INFO: Database Connected
+[2024-12-26T06:18:04.293Z]  INFO: Server is Initialized
+[2024-12-26T06:18:36.214Z]  INFO: Database Connected
+[2024-12-26T06:18:36.217Z]  INFO: Server is Initialized
+[2024-12-26T06:18:50.146Z]  INFO: Database Connected
+[2024-12-26T06:18:50.149Z]  INFO: Server is Initialized
+[2024-12-26T06:19:10.051Z]  INFO: Attempting to add a new record
+[2024-12-26T06:19:10.052Z]  INFO: Util: Attempting to fetch user with username: arthur_morga
+[2024-12-26T06:19:10.078Z]  INFO: Util: Successfully fetched user with username: arthur_morga
+[2024-12-26T06:19:10.078Z]  INFO: Util: Attempting to fetch book by title: Ikigai
+[2024-12-26T06:19:10.084Z]  INFO: Util: Book with title 'Ikigai' successfully fetched
+[2024-12-26T06:19:10.085Z]  INFO: Util: Attempting to find records for user: arthur_morga
+[2024-12-26T06:19:10.090Z]  INFO: Util: Successfully retrieved records for user: arthur_morga
+[2024-12-26T06:19:10.091Z]  INFO: Util: Attempting to find record for user: arthur_morga with book title: Ikigai
+[2024-12-26T06:19:10.096Z]  INFO: Util: Successfully retrieved record for user: arthur_morga with book title: Ikigai
+[2024-12-26T06:19:10.097Z]  INFO: Util: Attempting to add a new record for user: arthur_morga and book: Ikigai
+[2024-12-26T06:19:10.098Z]  INFO: Util: Attempting to fetch book by title: Ikigai
+[2024-12-26T06:19:10.102Z]  INFO: Util: Book with title 'Ikigai' successfully fetched
+[2024-12-26T06:19:10.168Z]  INFO: Util: Attempting to update borrow record for user: arthur_morga
+[2024-12-26T06:19:10.186Z]  INFO: Util: User arthur_morga successfully updated with borrowed book: 'Ikigai'
+[2024-12-26T06:19:10.186Z]  INFO: Util: Attempting to update borrow record for book: 'Ikigai' by user: 'arthur_morga'
+[2024-12-26T06:19:10.193Z]  INFO: Util: Book 'Ikigai' has been successfully borrowed by user 'arthur_morga'
+[2024-12-26T06:19:10.194Z]  INFO: Util: Successfully added a new record for user: arthur_morga and book: Ikigai
+[2024-12-26T06:19:10.194Z]  INFO: Record successfully added
+[2024-12-26T06:19:24.049Z]  INFO: Attempting to delete record for user: arthur_morga and book title: Ikigai
+[2024-12-26T06:19:24.054Z]  ERROR: Could not Delete the record because user with username 'arthur_morga' still has book with title 'Ikigai'
+[2024-12-26T06:19:35.226Z]  INFO: Attempting to delete record for user: arthur_morga and book title: Ikigai
+[2024-12-26T06:19:35.232Z]  ERROR: Could not Delete the record because user with username 'arthur_morga' still has book with title 'Ikigai'
+[2024-12-26T06:19:41.789Z]  INFO: Attempting to delete record for user: arthur_morgan and book title: Ikigai
+[2024-12-26T06:19:41.793Z]  INFO: Record of user with username 'arthur_morgan' and book with title 'Ikigai' does not exist in the first place
+[2024-12-26T06:19:45.142Z]  INFO: Attempting to delete record for user: arthur_morga and book title: Ikigai
+[2024-12-26T06:19:45.148Z]  ERROR: Could not Delete the record because user with username 'arthur_morga' still has book with title 'Ikigai'
+[2024-12-26T06:19:57.541Z]  INFO: Attempting to update return record for user: arthur_morga and book title: Ikigai
+[2024-12-26T06:19:57.541Z]  INFO: Util: Attempting to find record for user: arthur_morga with book title: Ikigai
+[2024-12-26T06:19:57.547Z]  INFO: Util: Successfully retrieved record for user: arthur_morga with book title: Ikigai
+[2024-12-26T06:19:57.548Z]  INFO: Util: Attempting to update return record for user: arthur_morga with book title: Ikigai
+[2024-12-26T06:19:57.557Z]  INFO: Util: Attempting to update return record for user: arthur_morga
+[2024-12-26T06:19:57.562Z]  INFO: Util: User arthur_morga has successfully returned the book
+[2024-12-26T06:19:57.563Z]  INFO: Util: Attempting to update return record for book: 'Ikigai' by user: 'arthur_morga'
+[2024-12-26T06:19:57.568Z]  INFO: Util: Book 'Ikigai' has been successfully returned by user 'arthur_morga'
+[2024-12-26T06:19:57.568Z]  INFO: Util: Successfully updated return record for user: arthur_morga with book title: Ikigai
+[2024-12-26T06:19:57.568Z]  INFO: Record updated successfully for user 'arthur_morga' with book title 'Ikigai'
+[2024-12-26T06:20:06.456Z]  INFO: Attempting to delete record for user: arthur_morga and book title: Ikigai
+[2024-12-26T06:20:06.461Z]  INFO: Util: Attempting to delete record for user: arthur_morga with book title: Ikigai
+[2024-12-26T06:20:06.466Z]  INFO: Util: Successfully deleted record for user: arthur_morga with book title: Ikigai
+[2024-12-26T06:20:06.466Z]  INFO: Record deleted successfully for user 'arthur_morga' with book title 'Ikigai'
+[2024-12-26T06:20:12.862Z]  INFO: Attempting to add a new record
+[2024-12-26T06:20:12.862Z]  INFO: Util: Attempting to fetch user with username: arthur_morga
+[2024-12-26T06:20:12.867Z]  INFO: Util: Successfully fetched user with username: arthur_morga
+[2024-12-26T06:20:12.867Z]  INFO: Util: Attempting to fetch book by title: Ikigai
+[2024-12-26T06:20:12.871Z]  INFO: Util: Book with title 'Ikigai' successfully fetched
+[2024-12-26T06:20:12.871Z]  INFO: Util: Attempting to find records for user: arthur_morga
+[2024-12-26T06:20:12.874Z]  INFO: Util: Successfully retrieved records for user: arthur_morga
+[2024-12-26T06:20:12.874Z]  INFO: Util: Attempting to find record for user: arthur_morga with book title: Ikigai
+[2024-12-26T06:20:12.877Z]  INFO: Util: Successfully retrieved record for user: arthur_morga with book title: Ikigai
+[2024-12-26T06:20:12.877Z]  INFO: Util: Attempting to add a new record for user: arthur_morga and book: Ikigai
+[2024-12-26T06:20:12.877Z]  INFO: Util: Attempting to fetch book by title: Ikigai
+[2024-12-26T06:20:12.882Z]  INFO: Util: Book with title 'Ikigai' successfully fetched
+[2024-12-26T06:20:12.887Z]  INFO: Util: Attempting to update borrow record for user: arthur_morga
+[2024-12-26T06:20:12.891Z]  INFO: Util: User arthur_morga successfully updated with borrowed book: 'Ikigai'
+[2024-12-26T06:20:12.891Z]  INFO: Util: Attempting to update borrow record for book: 'Ikigai' by user: 'arthur_morga'
+[2024-12-26T06:20:12.894Z]  INFO: Util: Book 'Ikigai' has been successfully borrowed by user 'arthur_morga'
+[2024-12-26T06:20:12.894Z]  INFO: Util: Successfully added a new record for user: arthur_morga and book: Ikigai
+[2024-12-26T06:20:12.894Z]  INFO: Record successfully added
+[2024-12-26T06:23:36.341Z]  INFO: Database Connected
+[2024-12-26T06:23:36.344Z]  INFO: Server is Initialized
+[2024-12-26T06:24:05.746Z]  INFO: Database Connected
+[2024-12-26T06:24:05.754Z]  INFO: Server is Initialized
+[2024-12-26T06:24:17.133Z]  INFO: Authenticating the User access token
+[2024-12-26T06:24:17.134Z]  ERROR: Authentication failed: No access token found or token format is invalid
+[2024-12-26T06:24:46.195Z]  INFO: Logging in the user by username: arthur_morga
+[2024-12-26T06:24:46.195Z]  INFO: Util: Attempting to fetch user with username: arthur_morga
+[2024-12-26T06:24:46.219Z]  INFO: Util: Successfully fetched user with username: arthur_morga
+[2024-12-26T06:24:46.479Z]  INFO: Util: Generating tokens for user with username 'arthur_morga'
+[2024-12-26T06:24:46.526Z]  INFO: Util: Successfully generated tokens for user with username 'arthur_morga'
+[2024-12-26T06:24:46.526Z]  INFO: User with username 'arthur_morga' logged in successfully
+[2024-12-26T06:25:48.842Z]  INFO: Authenticating the User access token
+[2024-12-26T06:25:48.846Z]  INFO: Successfully authenticated user with username 'arthur_morga'
+[2024-12-26T06:26:16.442Z]  INFO: Authenticating the User access token
+[2024-12-26T06:26:16.446Z]  INFO: Successfully authenticated user with username 'arthur_morga'
+[2024-12-26T06:26:16.447Z]  INFO: Attempting to delete user: arthur_morga
+[2024-12-26T06:26:16.447Z]  INFO: Util: Attempting to fetch user with username: arthur_morga
+[2024-12-26T06:26:16.453Z]  INFO: Util: Successfully fetched user with username: arthur_morga
+[2024-12-26T06:26:16.453Z]  ERROR: Could not delete the user with username 'arthur_morga' because they still have a book with title 'Ikigai'
+[2024-12-26T06:26:32.716Z]  INFO: Attempting to delete record for user: arthur_morga and book title: Ikigai
+[2024-12-26T06:26:32.723Z]  ERROR: Could not Delete the record because user with username 'arthur_morga' still has book with title 'Ikigai'
+[2024-12-26T06:27:00.600Z]  INFO: Attempting to update return record for user: arthur_morga and book title: Ikigai
+[2024-12-26T06:27:00.600Z]  INFO: Util: Attempting to find record for user: arthur_morga with book title: Ikigai
+[2024-12-26T06:27:00.607Z]  INFO: Util: Successfully retrieved record for user: arthur_morga with book title: Ikigai
+[2024-12-26T06:27:00.607Z]  INFO: Util: Attempting to update return record for user: arthur_morga with book title: Ikigai
+[2024-12-26T06:27:00.625Z]  INFO: Util: Attempting to update return record for user: arthur_morga
+[2024-12-26T06:27:00.632Z]  INFO: Util: User arthur_morga has successfully returned the book
+[2024-12-26T06:27:00.632Z]  INFO: Util: Attempting to update return record for book: 'Ikigai' by user: 'arthur_morga'
+[2024-12-26T06:27:00.639Z]  INFO: Util: Book 'Ikigai' has been successfully returned by user 'arthur_morga'
+[2024-12-26T06:27:00.639Z]  INFO: Util: Successfully updated return record for user: arthur_morga with book title: Ikigai
+[2024-12-26T06:27:00.639Z]  INFO: Record updated successfully for user 'arthur_morga' with book title 'Ikigai'
+[2024-12-26T06:27:11.750Z]  INFO: Authenticating the User access token
+[2024-12-26T06:27:11.752Z]  INFO: Successfully authenticated user with username 'arthur_morga'
+[2024-12-26T06:27:11.752Z]  INFO: Attempting to delete user: arthur_morga
+[2024-12-26T06:27:11.752Z]  INFO: Util: Attempting to fetch user with username: arthur_morga
+[2024-12-26T06:27:11.756Z]  INFO: Util: Successfully fetched user with username: arthur_morga
+[2024-12-26T06:27:11.757Z]  INFO: Util: Attempting to delete user: arthur_morga
+[2024-12-26T06:27:11.767Z]  INFO: Util: User arthur_morga deleted successfully
+[2024-12-26T06:27:11.768Z]  INFO: User with username 'arthur_morga' has been deleted successfully
+[2024-12-26T06:27:25.956Z]  INFO: Logging in the user by username: arthur_morgan
+[2024-12-26T06:27:25.956Z]  INFO: Util: Attempting to fetch user with username: arthur_morgan
+[2024-12-26T06:27:25.961Z]  INFO: Util: Successfully fetched user with username: arthur_morgan
+[2024-12-26T06:27:26.217Z]  INFO: Util: Generating tokens for user with username 'arthur_morgan'
+[2024-12-26T06:27:26.221Z]  INFO: Util: Successfully generated tokens for user with username 'arthur_morgan'
+[2024-12-26T06:27:26.221Z]  INFO: User with username 'arthur_morgan' logged in successfully
+[2024-12-26T06:28:43.493Z]  INFO: Attempting to register a new user: arthur_morga
+[2024-12-26T06:28:43.508Z]  INFO: Util: Attempting to add user with username: arthur_morga
+[2024-12-26T06:28:43.805Z]  INFO: Util: User arthur_morga added successfully
+[2024-12-26T06:28:43.805Z]  INFO: Util: Generating tokens for user with username 'arthur_morga'
+[2024-12-26T06:28:43.809Z]  INFO: Util: Successfully generated tokens for user with username 'arthur_morga'
+[2024-12-26T06:28:43.809Z]  INFO: User arthur_morga added successfully
+[2024-12-26T06:29:19.956Z]  INFO: Database Connected
+[2024-12-26T06:29:19.965Z]  INFO: Server is Initialized
+[2024-12-26T06:29:34.872Z]  INFO: Authenticating the User access token
+[2024-12-26T06:29:34.881Z]  INFO: Successfully authenticated user with username 'arthur_morgan'
+[2024-12-26T06:29:34.885Z]  INFO: Attempting to delete user: arthur_morgan
+[2024-12-26T06:29:34.885Z]  INFO: Util: Attempting to fetch user with username: arthur_morgan
+[2024-12-26T06:29:34.927Z]  INFO: Util: Successfully fetched user with username: arthur_morgan
+[2024-12-26T06:29:34.928Z]  INFO: Util: Attempting to delete user: arthur_morgan
+[2024-12-26T06:29:34.949Z]  INFO: Util: User arthur_morgan deleted successfully
+[2024-12-26T06:29:34.950Z]  INFO: User with username 'arthur_morgan' has been deleted successfully
+[2024-12-26T06:29:47.832Z]  INFO: Attempting to register a new user: arthur_morga
+[2024-12-26T06:29:47.843Z]  ERROR: User with username 'arthur_morga' already exists
+[2024-12-26T06:30:14.282Z]  INFO: Attempting to register a new user: arthur_morgan
+[2024-12-26T06:30:14.291Z]  INFO: Util: Attempting to add user with username: arthur_morgan
+[2024-12-26T06:30:14.575Z]  INFO: Util: User arthur_morgan added successfully
+[2024-12-26T06:30:14.575Z]  INFO: Util: Generating tokens for user with username 'arthur_morgan'
+[2024-12-26T06:30:14.581Z]  INFO: Util: Successfully generated tokens for user with username 'arthur_morgan'
+[2024-12-26T06:30:14.581Z]  INFO: User arthur_morgan added successfully
+[2024-12-26T06:30:43.218Z]  INFO: Attempting to subtract a copy of the book with title: 'The Psychology of Money'
+[2024-12-26T06:30:43.218Z]  INFO: Util: Attempting to fetch book by title: The Psychology of Money
+[2024-12-26T06:30:43.224Z]  INFO: Util: Book with title 'The Psychology of Money' successfully fetched
+[2024-12-26T06:30:43.225Z]  INFO: Util: Attempting to subtract a copy of the book: The Psychology of Money
+[2024-12-26T06:30:43.240Z]  INFO: Util: Book 'The Psychology of Money' has been successfully subtracted
+[2024-12-26T06:30:43.240Z]  INFO: Successfully subtracted a copy of the book with title: 'The Psychology of Money'
+[2024-12-26T06:30:47.660Z]  INFO: Attempting to subtract a copy of the book with title: 'The Psychology of Money'
+[2024-12-26T06:30:47.660Z]  INFO: Util: Attempting to fetch book by title: The Psychology of Money
+[2024-12-26T06:30:47.665Z]  INFO: Util: Book with title 'The Psychology of Money' successfully fetched
+[2024-12-26T06:30:47.666Z]  INFO: Util: Attempting to subtract a copy of the book: The Psychology of Money
+[2024-12-26T06:30:47.673Z]  INFO: Util: Book 'The Psychology of Money' has been successfully subtracted
+[2024-12-26T06:30:47.673Z]  INFO: Successfully subtracted a copy of the book with title: 'The Psychology of Money'
+[2024-12-26T06:30:49.036Z]  INFO: Attempting to subtract a copy of the book with title: 'The Psychology of Money'
+[2024-12-26T06:30:49.036Z]  INFO: Util: Attempting to fetch book by title: The Psychology of Money
+[2024-12-26T06:30:49.040Z]  INFO: Util: Book with title 'The Psychology of Money' successfully fetched
+[2024-12-26T06:30:49.040Z]  INFO: Util: Attempting to subtract a copy of the book: The Psychology of Money
+[2024-12-26T06:30:49.049Z]  INFO: Util: Book 'The Psychology of Money' has been successfully subtracted
+[2024-12-26T06:30:49.049Z]  INFO: Successfully subtracted a copy of the book with title: 'The Psychology of Money'
+[2024-12-26T06:30:49.880Z]  INFO: Attempting to subtract a copy of the book with title: 'The Psychology of Money'
+[2024-12-26T06:30:49.880Z]  INFO: Util: Attempting to fetch book by title: The Psychology of Money
+[2024-12-26T06:30:49.885Z]  INFO: Util: Book with title 'The Psychology of Money' successfully fetched
+[2024-12-26T06:30:49.885Z]  INFO: Util: Attempting to subtract a copy of the book: The Psychology of Money
+[2024-12-26T06:30:49.909Z]  INFO: Util: Book 'The Psychology of Money' has been successfully subtracted
+[2024-12-26T06:30:49.909Z]  INFO: Successfully subtracted a copy of the book with title: 'The Psychology of Money'
+[2024-12-26T06:30:50.872Z]  INFO: Attempting to subtract a copy of the book with title: 'The Psychology of Money'
+[2024-12-26T06:30:50.872Z]  INFO: Util: Attempting to fetch book by title: The Psychology of Money
+[2024-12-26T06:30:50.877Z]  INFO: Util: Book with title 'The Psychology of Money' successfully fetched
+[2024-12-26T06:30:50.877Z]  INFO: Util: Attempting to subtract a copy of the book: The Psychology of Money
+[2024-12-26T06:30:50.886Z]  INFO: Util: Book 'The Psychology of Money' has been successfully subtracted
+[2024-12-26T06:30:50.886Z]  INFO: Successfully subtracted a copy of the book with title: 'The Psychology of Money'
+[2024-12-26T06:30:52.525Z]  INFO: Attempting to subtract a copy of the book with title: 'The Psychology of Money'
+[2024-12-26T06:30:52.525Z]  INFO: Util: Attempting to fetch book by title: The Psychology of Money
+[2024-12-26T06:30:52.529Z]  INFO: Util: Book with title 'The Psychology of Money' successfully fetched
+[2024-12-26T06:30:52.529Z]  INFO: Util: Attempting to subtract a copy of the book: The Psychology of Money
+[2024-12-26T06:30:52.536Z]  INFO: Util: Book 'The Psychology of Money' has been successfully subtracted
+[2024-12-26T06:30:52.537Z]  INFO: Successfully subtracted a copy of the book with title: 'The Psychology of Money'
+[2024-12-26T06:30:53.752Z]  INFO: Attempting to subtract a copy of the book with title: 'The Psychology of Money'
+[2024-12-26T06:30:53.753Z]  INFO: Util: Attempting to fetch book by title: The Psychology of Money
+[2024-12-26T06:30:53.757Z]  INFO: Util: Book with title 'The Psychology of Money' successfully fetched
+[2024-12-26T06:30:53.757Z]  INFO: Util: Attempting to subtract a copy of the book: The Psychology of Money
+[2024-12-26T06:30:53.765Z]  INFO: Util: Book 'The Psychology of Money' has been successfully subtracted
+[2024-12-26T06:30:53.765Z]  INFO: Successfully subtracted a copy of the book with title: 'The Psychology of Money'
+[2024-12-26T06:30:55.059Z]  INFO: Attempting to subtract a copy of the book with title: 'The Psychology of Money'
+[2024-12-26T06:30:55.059Z]  INFO: Util: Attempting to fetch book by title: The Psychology of Money
+[2024-12-26T06:30:55.064Z]  INFO: Util: Book with title 'The Psychology of Money' successfully fetched
+[2024-12-26T06:30:55.065Z]  INFO: Util: Attempting to subtract a copy of the book: The Psychology of Money
+[2024-12-26T06:30:55.071Z]  INFO: Util: Book 'The Psychology of Money' has been successfully subtracted
+[2024-12-26T06:30:55.071Z]  INFO: Successfully subtracted a copy of the book with title: 'The Psychology of Money'
+[2024-12-26T06:30:56.380Z]  INFO: Attempting to subtract a copy of the book with title: 'The Psychology of Money'
+[2024-12-26T06:30:56.380Z]  INFO: Util: Attempting to fetch book by title: The Psychology of Money
+[2024-12-26T06:30:56.384Z]  INFO: Util: Book with title 'The Psychology of Money' successfully fetched
+[2024-12-26T06:30:56.384Z]  ERROR: No copies available to subtract for book with title 'The Psychology of Money'
+[2024-12-26T06:31:02.805Z]  INFO: Attempting to subtract a copy of the book with title: 'The Psychology of Money'
+[2024-12-26T06:31:02.806Z]  INFO: Util: Attempting to fetch book by title: The Psychology of Money
+[2024-12-26T06:31:02.810Z]  INFO: Util: Book with title 'The Psychology of Money' successfully fetched
+[2024-12-26T06:31:02.810Z]  ERROR: No copies available to subtract for book with title 'The Psychology of Money'
+[2024-12-26T06:31:41.797Z]  INFO: Attempting to add a new record
+[2024-12-26T06:31:41.797Z]  INFO: Util: Attempting to fetch user with username: arthur_morgan
+[2024-12-26T06:31:41.802Z]  INFO: Util: Successfully fetched user with username: arthur_morgan
+[2024-12-26T06:31:41.802Z]  INFO: Util: Attempting to fetch book by title: The Psychology of Money
+[2024-12-26T06:31:41.806Z]  INFO: Util: Book with title 'The Psychology of Money' successfully fetched
+[2024-12-26T06:31:41.806Z]  INFO: Util: Attempting to find records for user: arthur_morgan
+[2024-12-26T06:31:41.811Z]  INFO: Util: Successfully retrieved records for user: arthur_morgan
+[2024-12-26T06:31:41.812Z]  INFO: Util: Attempting to find record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T06:31:41.815Z]  INFO: Util: Successfully retrieved record for user: arthur_morgan with book title: The Psychology of Money
+[2024-12-26T06:31:41.816Z]  INFO: Util: Attempting to add a new record for user: arthur_morgan and book: The Psychology of Money
+[2024-12-26T06:31:41.816Z]  INFO: Util: Attempting to fetch book by title: The Psychology of Money
+[2024-12-26T06:31:41.819Z]  INFO: Util: Book with title 'The Psychology of Money' successfully fetched
+[2024-12-26T06:31:41.820Z]  ERROR: Util: Book with title 'The Psychology of Money' has no copies available
+[2024-12-26T06:31:41.820Z]  ERROR: Error while adding record - Error while creating new Record - Book with title 'The Psychology of Money' has no copies available
+[2024-12-26T06:31:52.603Z]  INFO: Attempting to add a new record
+[2024-12-26T06:31:52.604Z]  INFO: Util: Attempting to fetch user with username: arthur_morgan
+[2024-12-26T06:31:52.608Z]  INFO: Util: Successfully fetched user with username: arthur_morgan
+[2024-12-26T06:31:52.608Z]  INFO: Util: Attempting to fetch book by title: Ikigai
+[2024-12-26T06:31:52.612Z]  INFO: Util: Book with title 'Ikigai' successfully fetched
+[2024-12-26T06:31:52.612Z]  INFO: Util: Attempting to find records for user: arthur_morgan
+[2024-12-26T06:31:52.614Z]  INFO: Util: Successfully retrieved records for user: arthur_morgan
+[2024-12-26T06:31:52.614Z]  INFO: Util: Attempting to find record for user: arthur_morgan with book title: Ikigai
+[2024-12-26T06:31:52.616Z]  INFO: Util: Successfully retrieved record for user: arthur_morgan with book title: Ikigai
+[2024-12-26T06:31:52.616Z]  INFO: Util: Attempting to add a new record for user: arthur_morgan and book: Ikigai
+[2024-12-26T06:31:52.616Z]  INFO: Util: Attempting to fetch book by title: Ikigai
+[2024-12-26T06:31:52.621Z]  INFO: Util: Book with title 'Ikigai' successfully fetched
+[2024-12-26T06:31:52.631Z]  INFO: Util: Attempting to update borrow record for user: arthur_morgan
+[2024-12-26T06:31:52.640Z]  INFO: Util: User arthur_morgan successfully updated with borrowed book: 'Ikigai'
+[2024-12-26T06:31:52.641Z]  INFO: Util: Attempting to update borrow record for book: 'Ikigai' by user: 'arthur_morgan'
+[2024-12-26T06:31:52.646Z]  INFO: Util: Book 'Ikigai' has been successfully borrowed by user 'arthur_morgan'
+[2024-12-26T06:31:52.646Z]  INFO: Util: Successfully added a new record for user: arthur_morgan and book: Ikigai
+[2024-12-26T06:31:52.646Z]  INFO: Record successfully added
+[2024-12-26T06:32:35.937Z]  INFO: Authenticating the User access token
+[2024-12-26T06:32:35.939Z]  ERROR: Access token authentication failed: Token expired
+[2024-12-26T06:32:44.467Z]  INFO: Logging in the user by username: arthur_morgan
+[2024-12-26T06:32:44.467Z]  INFO: Util: Attempting to fetch user with username: arthur_morgan
+[2024-12-26T06:32:44.471Z]  INFO: Util: Successfully fetched user with username: arthur_morgan
+[2024-12-26T06:32:44.732Z]  INFO: Util: Generating tokens for user with username 'arthur_morgan'
+[2024-12-26T06:32:44.734Z]  INFO: Util: Successfully generated tokens for user with username 'arthur_morgan'
+[2024-12-26T06:32:44.735Z]  INFO: User with username 'arthur_morgan' logged in successfully
+[2024-12-26T06:33:21.598Z]  INFO: Authenticating the User access token
+[2024-12-26T06:33:21.601Z]  INFO: Successfully authenticated user with username 'arthur_morgan'
+[2024-12-26T06:33:21.612Z]  INFO: multer was used
+[2024-12-26T06:33:21.612Z]  INFO: File type "image/png" is allowed.
+[2024-12-26T06:33:21.612Z]  INFO: multer was called
+[2024-12-26T06:33:21.613Z]  INFO: Saving file to folder: C:\Users\ADMIN\OneDrive\CODES\WebD Codes\1. Projects\2. MiniProjects\2. Libraria\uploads\users
+[2024-12-26T06:33:21.613Z]  INFO: profile image of a user with username arthur_morgan is being stored as file arthur_morgan-profile.png
+[2024-12-26T06:33:21.613Z]  INFO: arthur_morgan-profile.png
+[2024-12-26T06:33:21.646Z]  INFO: Attempting to upload profile/dashboard image of user
+[2024-12-26T06:33:21.646Z]  INFO: Util: Attempting to fetch user with username: arthur_morgan
+[2024-12-26T06:33:21.652Z]  INFO: Util: Successfully fetched user with username: arthur_morgan
+[2024-12-26T06:33:21.652Z]  INFO: Attempting to update profile for user with username 'arthur_morgan'
+[2024-12-26T06:33:21.660Z]  INFO: Util: Successfully updated the profile image of user with username 'arthur_morgan'
+[2024-12-26T06:33:21.660Z]  INFO: Successfully added image 'arthur_morgan-profile.png' to user with username 'arthur_morgan'
+[2024-12-26T06:33:32.238Z]  INFO: Authenticating the User access token
+[2024-12-26T06:33:32.239Z]  INFO: Successfully authenticated user with username 'arthur_morgan'
+[2024-12-26T06:33:32.241Z]  INFO: multer was used
+[2024-12-26T06:33:32.241Z]  INFO: File type "image/jpeg" is allowed.
+[2024-12-26T06:33:32.241Z]  INFO: multer was called
+[2024-12-26T06:33:32.241Z]  INFO: Saving file to folder: C:\Users\ADMIN\OneDrive\CODES\WebD Codes\1. Projects\2. MiniProjects\2. Libraria\uploads\users
+[2024-12-26T06:33:32.241Z]  INFO: dashboard image of a user with username arthur_morgan is being stored as file arthur_morgan-dashboard.jpg
+[2024-12-26T06:33:32.241Z]  INFO: arthur_morgan-dashboard.jpg
+[2024-12-26T06:33:32.247Z]  INFO: Attempting to upload profile/dashboard image of user
+[2024-12-26T06:33:32.247Z]  INFO: Util: Attempting to fetch user with username: arthur_morgan
+[2024-12-26T06:33:32.252Z]  INFO: Util: Successfully fetched user with username: arthur_morgan
+[2024-12-26T06:33:32.252Z]  INFO: Attempting to update dashboard for user with username 'arthur_morgan'
+[2024-12-26T06:33:32.256Z]  INFO: Util: Successfully updated the dashboard image of user with username 'arthur_morgan'
+[2024-12-26T06:33:32.256Z]  INFO: Successfully added image 'arthur_morgan-dashboard.jpg' to user with username 'arthur_morgan'
+[2024-12-26T06:51:12.533Z]  INFO: Database Connected
+[2024-12-26T06:51:12.536Z]  INFO: Server is Initialized
+[2024-12-26T06:52:18.420Z]  INFO: Database Connected
+[2024-12-26T06:52:18.423Z]  INFO: Server is Initialized
+[2024-12-26T06:53:04.543Z]  INFO: Database Connected
+[2024-12-26T06:53:04.548Z]  INFO: Server is Initialized
+[2024-12-26T06:53:10.667Z]  INFO: Database Connected
+[2024-12-26T06:53:10.672Z]  INFO: Server is Initialized
+[2024-12-26T06:53:12.712Z]  INFO: Database Connected
+[2024-12-26T06:53:12.715Z]  INFO: Server is Initialized
+[2024-12-26T06:53:17.475Z]  INFO: Database Connected
+[2024-12-26T06:53:17.479Z]  INFO: Server is Initialized
+[2024-12-26T07:02:04.897Z]  INFO: Database Connected
+[2024-12-26T07:02:04.899Z]  INFO: Server is Initialized
+[2024-12-26T07:02:51.225Z]  INFO: Database Connected
+[2024-12-26T07:02:51.228Z]  INFO: Server is Initialized
+[2024-12-26T07:04:03.571Z]  INFO: Database Connected
+[2024-12-26T07:04:03.574Z]  INFO: Server is Initialized
+[2024-12-26T07:04:10.335Z]  INFO: Database Connected
+[2024-12-26T07:04:10.338Z]  INFO: Server is Initialized
+[2024-12-26T07:05:09.319Z]  INFO: Database Connected
+[2024-12-26T07:05:09.324Z]  INFO: Server is Initialized
+[2024-12-26T07:05:22.950Z]  INFO: Database Connected
+[2024-12-26T07:05:22.953Z]  INFO: Server is Initialized
+[2024-12-26T07:06:22.439Z]  INFO: Database Connected
+[2024-12-26T07:06:22.443Z]  INFO: Server is Initialized
+[2024-12-26T07:06:35.129Z]  INFO: Database Connected
+[2024-12-26T07:06:35.132Z]  INFO: Server is Initialized
+[2024-12-26T07:07:17.577Z]  INFO: Database Connected
+[2024-12-26T07:07:17.580Z]  INFO: Server is Initialized
+[2024-12-26T07:07:25.694Z]  INFO: Database Connected
+[2024-12-26T07:07:25.698Z]  INFO: Server is Initialized
+[2024-12-26T07:08:38.681Z]  INFO: Database Connected
+[2024-12-26T07:08:38.686Z]  INFO: Server is Initialized
+[2024-12-26T07:08:44.371Z]  INFO: Database Connected
+[2024-12-26T07:08:44.374Z]  INFO: Server is Initialized
+[2024-12-26T07:11:00.973Z]  INFO: Database Connected
+[2024-12-26T07:11:00.976Z]  INFO: Server is Initialized
+[2024-12-26T07:11:21.032Z]  INFO: Database Connected
+[2024-12-26T07:11:21.034Z]  INFO: Server is Initialized
+[2024-12-28T04:58:11.332Z]  INFO: Database Connected
+[2024-12-28T04:58:11.337Z]  INFO: Server is Initialized
+[2025-01-01T07:45:44.621Z]  INFO: Database Connected
+[2025-01-01T07:45:44.625Z]  INFO: Server is Initialized

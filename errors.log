@@ -1,0 +1,19 @@
+[2024-12-26T05:22:01.990Z]  ERROR: User with username 'arthur_morgan' already exists
+[2024-12-26T05:37:45.828Z]  ERROR: Util: Due date must be after Delivery date
+[2024-12-26T05:37:45.829Z]  ERROR: Error while adding record - Error while creating new Record - Due date must be after Delivery date
+[2024-12-26T05:53:46.528Z]  ERROR: Util: Error while deleting record - Cannot read properties of null (reading 'bookWithUser')
+[2024-12-26T05:53:46.528Z]  ERROR: Error occurred while deleting record for user: arthur_morgan and book title: The Psychology of Money - Error while deleting record - Cannot read properties of null (reading 'bookWithUser')
+[2024-12-26T06:04:38.496Z]  ERROR: Could not Delete the record because user with username 'arthur_morgan' still has book with title 'Ikigai'
+[2024-12-26T06:16:30.676Z]  ERROR: Could not delete the book with title 'Del The Psychology of Money' because it is borrowed by users
+[2024-12-26T06:19:24.054Z]  ERROR: Could not Delete the record because user with username 'arthur_morga' still has book with title 'Ikigai'
+[2024-12-26T06:19:35.232Z]  ERROR: Could not Delete the record because user with username 'arthur_morga' still has book with title 'Ikigai'
+[2024-12-26T06:19:45.148Z]  ERROR: Could not Delete the record because user with username 'arthur_morga' still has book with title 'Ikigai'
+[2024-12-26T06:24:17.134Z]  ERROR: Authentication failed: No access token found or token format is invalid
+[2024-12-26T06:26:16.453Z]  ERROR: Could not delete the user with username 'arthur_morga' because they still have a book with title 'Ikigai'
+[2024-12-26T06:26:32.723Z]  ERROR: Could not Delete the record because user with username 'arthur_morga' still has book with title 'Ikigai'
+[2024-12-26T06:29:47.843Z]  ERROR: User with username 'arthur_morga' already exists
+[2024-12-26T06:30:56.384Z]  ERROR: No copies available to subtract for book with title 'The Psychology of Money'
+[2024-12-26T06:31:02.810Z]  ERROR: No copies available to subtract for book with title 'The Psychology of Money'
+[2024-12-26T06:31:41.820Z]  ERROR: Util: Book with title 'The Psychology of Money' has no copies available
+[2024-12-26T06:31:41.820Z]  ERROR: Error while adding record - Error while creating new Record - Book with title 'The Psychology of Money' has no copies available
+[2024-12-26T06:32:35.939Z]  ERROR: Access token authentication failed: Token expired

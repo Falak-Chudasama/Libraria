@@ -1,0 +1,275 @@
+:root {
+    --primary-black: #222222;
+    --primary-white: #f6f6f6;
+    --accent-red: #dd0000;
+    --accent-dark-red: #3B0000;
+    --light-pink: #FFE6E6;
+    --gray: #d9d9d9;
+    --dark-gray: #444;
+    --img-diameter: 8vh;
+    --default-padding: 4vw;
+    --full-width-minus-padding: calc(100vw - 2 * var(--default-padding));
+    --animation-time1: 0.6s;
+    --animation-time2: 0.8s;
+}
+
+/* TYPOGRAPHY */
+
+/* Playfair Display Regular and Italic */
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../../assets/typography/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format('truetype');
+    font-style: normal;
+}
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../../assets/typography/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf") format('truetype');
+    font-style: italic;
+}
+
+/* Poppins ExtraLight and ExtraLight Italic */
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/typography/Poppins/Poppins-Thin.ttf") format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/typography/Poppins/Poppins-ThinItalic.ttf") format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* Poppins ExtraLight and ExtraLight Italic */
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/typography/Poppins/Poppins-ExtraLight.ttf") format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/typography/Poppins/Poppins-ExtraLightItalic.ttf") format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+/* Poppins Light and Light Italic */
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/typography/Poppins/Poppins-Light.ttf") format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/typography/Poppins/Poppins-LightItalic.ttf") format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* Poppins Regular and Regular Italic */
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/typography/Poppins/Poppins-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/typography/Poppins/Poppins-Italic.ttf") format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Poppins Medium and Medium Italic */
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/typography/Poppins/Poppins-Medium.ttf") format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/typography/Poppins/Poppins-MediumItalic.ttf") format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* Poppins SemiBold and SemiBold Italic */
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/typography/Poppins/Poppins-SemiBold.ttf") format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/typography/Poppins/Poppins-SemiBoldItalic.ttf") format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* Poppins Bold and Bold Italic */
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/typography/Poppins/Poppins-Bold.ttf") format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/typography/Poppins/Poppins-BoldItalic.ttf") format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Poppins ExtraBold and ExtraBold Italic */
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/typography/Poppins/Poppins-ExtraBold.ttf") format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/typography/Poppins/Poppins-ExtraBoldItalic.ttf") format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+/* Poppins Black and Black Italic */
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/typography/Poppins/Poppins-Black.ttf") format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/typography/Poppins/Poppins-BlackItalic.ttf") format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* Global Styles */
+
+* {
+    color: var(--primary-black);
+    background-color: var(--primary-white);
+    font-family: "Poppins";
+    border: none;
+    margin: 0;
+    padding: 0;
+    transition: 0.4s;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    user-select: none;
+}
+
+.playfair-display-font {
+    font-family: "Playfair Display";
+}
+
+.text-subheading {
+    font-family: "Poppins";
+}
+
+.text-body {
+    font-family: "Poppins";
+}
+
+.text-center {
+    text-align: center;
+}
+
+.non-selectable {
+    user-select: none;
+}
+
+.full-screen {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circular-image {
+    height: var(--img-diameter);
+    width: var(--img-diameter);
+    border-radius: calc(var(--img-diameter) / 2);
+}
+
+.profile-image-white {
+    height: var(--img-diameter);
+    width: var(--img-diameter);
+    border-radius: calc(var(--img-diameter));
+    border: 2px solid var(--primary-white);
+}
+
+.profile-image-black {
+    height: var(--img-diameter);
+    width: var(--img-diameter);
+    border-radius: calc(var(--img-diameter));
+    border: 2px solid var(--primary-black);
+}
+
+.grid {
+    display: grid;
+    place-items: center;
+}
+
+.inline {
+    display: inline;
+}
+
+.default-link {
+    /* color: var(--primary-black); */
+    display: block;
+    text-decoration: none;
+}
+
+#user-profile:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+.laural-wreath {
+    height: 7vh;
+    width: auto;
+}
+
+.horizontal-bar-dark-gray {
+    height: 1.2px;
+    width: calc(100vw - 1.5 * var(--default-padding));
+    background-color: var(--dark-gray);
+}
+
+button {
+    cursor: pointer;
+}
+
+.relative-position {
+    position: relative;
+}
+
+.absolute-position {
+    position: absolute;
+}

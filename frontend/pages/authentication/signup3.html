@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Librariá</title>
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../../assets/icons/libraria_white.svg" type="image/svg">
+</head>
+
+<body class="flex-box">
+    <div class="left-div flex-box relative-position">
+        <div class="left-polygon signup3-left relative-position"></div>
+        <div class="left-strip relative-position"></div>
+    </div>
+    <div class="center-div grid">
+        <div class="header-text grid">
+            <div class="heading flex-box">
+                <img src="../../assets/images/left-laurel-wreath.png" alt="" class="laural-wreath non-selectable">
+                <h1 class="non-selectable">Welcome to Librariá</h1>
+                <img src="../../assets/images/right-laurel-wreath.png" alt="" class="laural-wreath non-selectable">
+            </div>
+            <h3 class="non-selectable">Fetching the Address</h3>
+        </div>
+
+        <form action="" class="signup3-form">
+            <div class="fields grid">
+
+                <div class="fields-pair relative-position flex-box">
+                    <div class="field relative-position">
+                        <label for="house" class="field-name non-selectable absolute-position">House</label>
+                        <input type="text" id="house" name="house" class="half-input" required>
+                    </div>
+                    <div class="field relative-position">
+                        <label for="street" class="field-name non-selectable absolute-position">Street</label>
+                        <input type="text" id="street" name="street" class="half-input" required>
+                    </div>
+                </div>
+                <div class="fields-pair relative-position flex-box">
+                    <div class="field relative-position">
+                        <label for="landmark" class="field-name non-selectable absolute-position">Landmark</label>
+                        <input type="text" id="landmark" name="landmark" class="half-input" required>
+                    </div>
+                    <div class="field relative-position">
+                        <label for="city" class="field-name non-selectable absolute-position">City</label>
+                        <input type="text" id="city" name="city" class="half-input" required>
+                    </div>
+                </div>
+                <div class="fields-pair relative-position flex-box">
+                    <div class="field relative-position">
+                        <label for="state" class="field-name non-selectable absolute-position">State</label>
+                        <input type="text" id="state" name="state" class="half-input" required>
+                    </div>
+                    <div class="field relative-position">
+                        <label for="zipcode" class="field-name non-selectable absolute-position">Zipcode</label>
+                        <input type="text" id="zipcode" name="zipcode" class="half-input" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navigation">
+                <button type="submit" id="signup3" class="non-selectable">Create Account</button>
+            </div>
+        </form>
+    </div>
+    <div class="right-div flex-box relative-position">
+        <div class="right-strip relative-position"></div>
+        <div class="right-polygon signup3-right relative-position"></div>
+    </div>
+
+    <script src="../scripts/global.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

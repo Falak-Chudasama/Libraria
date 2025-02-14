@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Librariá</title>
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../../assets/icons/libraria_white.svg" type="image/svg">
+</head>
+
+<body class="flex-box">
+    <div class="left-div flex-box relative-position">
+        <div class="left-polygon signup2-left relative-position"></div>
+        <div class="left-strip relative-position"></div>
+    </div>
+    <div class="center-div grid">
+        <div class="header-text grid">
+            <div class="heading flex-box">
+                <img src="../../assets/images/left-laurel-wreath.png" alt="" class="laural-wreath non-selectable">
+                <h1 class="non-selectable">Welcome to Librariá</h1>
+                <img src="../../assets/images/right-laurel-wreath.png" alt="" class="laural-wreath non-selectable">
+            </div>
+            <h3 class="non-selectable">Fetching useful information</h3>
+        </div>
+
+        <form action="" class="signup2-form">
+            <div class="fields grid">
+
+                <div class="fields-pair relative-position flex-box">
+                    <div class="field relative-position">
+                        <label for="first-name" class="field-name non-selectable absolute-position">First Name</label>
+                        <input type="text" id="first-name" name="first-name" class="half-input" required>
+                    </div>
+                    <div class="field relative-position">
+                        <label for="last-name" class="field-name non-selectable absolute-position">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" class="half-input" required>
+                    </div>
+                </div>
+                <div class="fields-pair relative-position flex-box">
+                    <div class="field relative-position">
+                        <label for="mobile" class="field-name non-selectable absolute-position">Mobile</label>
+                        <input type="text" id="mobile" name="mobile" class="half-input" required>
+                    </div>
+                    <div class="field relative-position">
+                        <label for="email" class="field-name non-selectable absolute-position">Email</label>
+                        <input type="email" id="email" name="email" class="half-input" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navigation">
+                <button type="submit" id="signup2" class="non-selectable">Proceed</button>
+            </div>
+        </form>
+    </div>
+    <div class="right-div flex-box relative-position">
+        <div class="right-strip relative-position"></div>
+        <div class="right-polygon signup2-right relative-position"></div>
+    </div>
+
+    <script src="../scripts/global.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

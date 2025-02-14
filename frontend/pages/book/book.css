@@ -1,0 +1,150 @@
+@import url("../styles/global.css");
+
+body {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+nav {
+    width: var(--full-width-minus-padding);
+    background-color: var(--primary-black);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 3vh;
+    padding-inline: var(--default-padding);
+    margin-bottom: 3vh;
+    scroll-snap-align: start;
+}
+
+nav * {
+    background-color: transparent;
+}
+
+.a-links {
+    column-gap: 2vw;
+}
+
+a {
+    color: var(--primary-white);
+    font-weight: 400;
+}
+
+a:hover {
+    color: var(--gray);
+}
+
+
+main {
+    width: var(--full-width-minus-padding);
+    margin-left: var(--default-padding);
+    margin-top: 8vh;
+}
+
+.book-info {
+    display: flex;
+    justify-content: space-between;
+    scroll-snap-align: center;
+}
+
+#book-title {
+    font-size: 8vh;
+}
+
+#by {
+    font-weight: 300;
+    font-style: italic;
+}
+
+#book-author {
+    color: var(--accent-red);
+    font-weight: 600;
+}
+
+.author-text-pair {
+    display: flex;
+    align-items: baseline;
+    column-gap: 0.7vw;
+}
+
+#mini-description {
+    max-width: 60vw;
+    font-size: 4vh;
+    font-weight: 300;
+    margin-block: 5vh;
+}
+
+#book-cover {
+    background-color: orange;
+    height: 70vh;
+    width: 45.5vh;
+    border-radius: 2vh;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.15);
+}
+
+#book-cover:hover {
+    scale: 1.05;
+    border-radius: 4vh;
+}
+
+/* ANIMATIONS */
+#book-cover {
+    animation: slide-to-left var(--animation-time1) ease-in-out forwards
+}
+
+@keyframes slide-to-left {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    column-gap: 5vw;
+}
+
+.info-container-divider {
+    align-self: stretch;
+    width: 2px;
+    border-radius: 1px;
+    background-color: var(--primary-black);
+}
+
+.info-container-left,
+.info-container-right {
+    padding-block: 1vh;
+    row-gap: 2vh;
+    justify-items: start;
+}
+
+.info-pair {
+    display: flex;
+    align-items: center;
+    column-gap: 1.5vw;
+}
+
+.info-pair:hover .info-key {
+    font-weight: 800;
+}
+.info-pair:hover .info-value {
+    font-weight: 800;
+}
+
+.info-pair h3 {
+    font-size: 3.75vh;
+}
+
+.info-key {
+    font-weight: 500;
+}
+
+.info-value {
+    color: var(--accent-red);
+    font-weight: 300;
+}

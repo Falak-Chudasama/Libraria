@@ -1,3 +1,5 @@
+console.log('Hello world');
+
 const userProfile = document.getElementById('user-profile');
 const bookCover = document.getElementById('book-cover');
 const bookTitle = document.getElementById('book-title');

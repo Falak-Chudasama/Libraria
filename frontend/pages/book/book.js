@@ -12,6 +12,11 @@ const format = document.getElementById('format');
 const records = document.getElementById('records');
 const publishment = document.getElementById('publishment');
 const bookDescription = document.getElementById('book-description');
+const borrowersContainer = document.getElementById('borrowers-container');
+
+function editBorrowersSection() {
+    borrowersContainer.style.display = 'flex';
+}
 
 document.addEventListener('DOMContentLoaded', () => {
     // Example

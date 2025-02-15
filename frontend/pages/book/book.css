@@ -154,7 +154,7 @@ main {
 
 .description {
     width: var(--full-width-minus-padding);
-    min-height: 70vh;
+    /* min-height: 70vh; */
     background: linear-gradient(180deg, var(--primary-black) 50%, var(--accent-dark-red) 100%);
     scroll-snap-align: start;
     padding: var(--default-padding);
@@ -175,4 +175,57 @@ main {
     font-size: 3.5vh;
     font-weight: 300;
     margin-top: 4vh;
+}
+
+#borrowers-container {
+    display: flex;
+    align-items: center;
+    column-gap: 1vw;
+    margin-top: 5vh;
+}
+
+.borrower-profile-images {
+    column-gap: 0.6vw;
+}
+
+.borrower-profile-images div {
+    height: var(--img-diameter);
+    width: var(--img-diameter);
+    border-radius: var(--img-diameter);
+    background-color: orange;
+}
+
+.borrowed-by-text {
+    font-weight: 500;
+}
+
+.more-borrowers-text {
+    font-weight: 300;
+}
+
+.buttons-pair {
+    display: flex;
+    align-items: center;
+    column-gap: 1vw;
+    margin-top: 14vh;
+}
+
+.buttons-pair button {
+    background-color: var(--primary-white);
+    color: var(--primary-black);
+    font-size: 3vh;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.5vw;
+    padding-inline: 1.5vw;
+    padding-block: 0.5vw;
+}
+
+.buttons-pair button:hover {
+    padding-inline: 3vw;
+}
+
+#wishlist-button {
+    background-color: var(--accent-red);
+    color: var(--primary-white);
 }

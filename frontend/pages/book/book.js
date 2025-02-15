@@ -11,6 +11,7 @@ const pages = document.getElementById('pages');
 const format = document.getElementById('format');
 const records = document.getElementById('records');
 const publishment = document.getElementById('publishment');
+const bookDescription = document.getElementById('book-description');
 
 document.addEventListener('DOMContentLoaded', () => {
     // Example
@@ -27,4 +28,5 @@ document.addEventListener('DOMContentLoaded', () => {
     format.innerText = 'Hardcover';
     records.innerText = '135 Borrowed';
     publishment.innerText = '1997';
+    bookDescription.innerText = `Rich Dad, Poor Dad contrasts the financial philosophies of Robert Kiyosaki’s 'two dads': his biological father and his best friend’s father. The book offers insights into building wealth, achieving financial independence, and investing wisely.`
 });

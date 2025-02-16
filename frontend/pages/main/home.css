@@ -22,7 +22,7 @@ body {
 
 .hero-section {
     overflow: hidden;
-    height: 85vh;
+    /* height: 85vh; */
     width: calc(100vw - 2 * var(--default-padding));
     background: linear-gradient(180deg, var(--primary-black) 50%, var(--accent-dark-red) 100%);
     z-index: 1;
@@ -83,6 +83,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 23vh;
 }
 
 .left-hero {

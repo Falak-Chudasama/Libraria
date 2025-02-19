@@ -166,11 +166,6 @@ main {
     color: var(--primary-white)
 }
 
-.description h1 {
-    font-size: 7vh;
-    font-weight: 600;
-}
-
 #book-description {
     font-size: 3.5vh;
     font-weight: 300;
@@ -228,4 +223,26 @@ main {
 #wishlist-button {
     background-color: var(--accent-red);
     color: var(--primary-white);
+}
+
+
+.explore-more {
+    padding-inline: var(--default-padding);
+    padding-bottom: var(--default-padding);
+}
+
+.books {
+    display: flex;
+    align-items: center;
+    column-gap: 2vw;
+    padding-top: 3vh;
+}
+
+.book {
+    height: var(--med-book-h);
+    width: var(--med-book-w);
+    background-color: red;
+}
+.book:hover {
+    scale: 1.05;
 }

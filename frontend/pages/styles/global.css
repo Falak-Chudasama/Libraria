@@ -163,6 +163,16 @@
     margin: 0;
     padding: 0;
     transition: 0.4s;
+
+    /* 1 : 0.65 */
+    --big-book-h: 35vh;
+    --big-book-w: 23vh;
+
+    --small-book-h: 16.5vh;
+    --small-book-w: 11vh;
+
+    --med-book-h: 28vh;
+    --med-book-w: 18.2vh;
 }
 
 body {
@@ -171,6 +181,11 @@ body {
 
 a {
     user-select: none;
+}
+
+h1 {
+    font-size: 7vh;
+    font-weight: 600;
 }
 
 .playfair-display-font {

@@ -2,18 +2,6 @@
 
 /* TODO: Style the scroll bars of the page */
 
-:root {
-    /* 1 : 0.65 */
-    --big-book-h: 35vh;
-    --big-book-w: 23vh;
-
-    --small-book-h: 16.5vh;
-    --small-book-w: 11vh;
-
-    --med-book-h: 28vh;
-    --med-book-w: 18.2vh;
-}
-
 body {
     overflow-x: hidden;
     scroll-snap-type: y mandatory;
@@ -22,7 +10,6 @@ body {
 
 .hero-section {
     overflow: hidden;
-    /* height: 85vh; */
     width: calc(100vw - 2 * var(--default-padding));
     background: linear-gradient(180deg, var(--primary-black) 50%, var(--accent-dark-red) 100%);
     z-index: 1;

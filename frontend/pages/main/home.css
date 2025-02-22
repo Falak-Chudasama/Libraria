@@ -93,20 +93,7 @@ nav {
 }
 
 .big-book {
-    background-color: orange;
-    height: var(--big-book-h);
-    width: var(--big-book-w);
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.25);
-}
-.med-book {
-    background-color: orange;
-    height: var(--med-book-h);
-    width: var(--med-book-w);
-}
-.small-book {
-    background-color: orange;
-    height: var(--small-book-h);
-    width: var(--small-book-w);
 }
 
 .big-book:hover {
@@ -213,12 +200,15 @@ main {
 }
 
 .med-book {
-    height: var(--med-book-h);
-    width: var(--med-book-w);
-    background-color: red;
     flex: 0 0 auto;
+    overflow: hidden;
 }
 
 .med-book:hover {
     scale: 1.05;
+    border-radius: 8px;
+}
+
+.med-book:hover .book-tag {
+    transform: translateY(0);
 }

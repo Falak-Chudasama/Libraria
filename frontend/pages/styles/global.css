@@ -163,6 +163,7 @@
     margin: 0;
     padding: 0;
     transition: 0.4s;
+    background-color: transparent;
 
     /* 1 : 0.65 */
     --big-book-h: 35vh;
@@ -287,4 +288,45 @@ button {
 
 .absolute-position {
     position: absolute;
+}
+
+/* Books */
+.big-book {
+    background-color: orange;
+    height: var(--big-book-h);
+    width: var(--big-book-w);
+}
+.med-book {
+    background-color: red;
+    height: var(--med-book-h);
+    width: var(--med-book-w);
+}
+.small-book {
+    background-color: orange;
+    height: var(--small-book-h);
+    width: var(--small-book-w);
+}
+
+.book-tag {
+    width: fit-content;
+    background-color: var(--primary-white);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 80%, 0% 100%);
+    filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.25));
+    place-items: center;
+    transform: translateY(-100%);
+    padding-top: 5%;
+    padding-bottom: 12%;
+    padding-inline: 5%;
+    margin-left: 12%;
+}
+
+.book-tag p {
+    width: fit-content;
+    font-size: 10px;
+}
+
+.book-tag h3 {
+    width: fit-content;
+    font-size: 25px;
+    margin-top: -5px;
 }

@@ -5,36 +5,6 @@ body {
     scroll-behavior: smooth;
 }
 
-nav {
-    width: var(--full-width-minus-padding);
-    background-color: var(--primary-black);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-block: 3vh;
-    padding-inline: var(--default-padding);
-    margin-bottom: 3vh;
-    scroll-snap-align: start;
-}
-
-nav * {
-    background-color: transparent;
-}
-
-.a-links {
-    column-gap: 2vw;
-}
-
-a {
-    color: var(--primary-white);
-    font-weight: 400;
-}
-
-a:hover {
-    color: var(--gray);
-}
-
-
 main {
     width: var(--full-width-minus-padding);
     /* padding-left: var(--default-padding); */

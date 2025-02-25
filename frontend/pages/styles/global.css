@@ -280,6 +280,42 @@ button {
     position: absolute;
 }
 
+/* Navigation bar */
+nav {
+    background-color: var(--primary-black);
+    height: fit-content;
+    width: 100vw;
+    padding-inline: var(--default-padding);
+    padding-block: 3vh;
+    width: calc(100vw - 2 * var(--default-padding));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    height: var(--img-diameter);
+    width: var(--img-diameter);
+    border-radius: calc(var(--img-diameter) / 2);
+    display: block;
+}
+
+#user-profile {
+    height: calc(var(--img-diameter) - 4px);
+    width:  calc(var(--img-diameter) - 4px);
+    border: 2px solid var(--primary-white);
+}
+
+.a-links {
+    column-gap: 2vw;
+}
+
+.a-links a {
+    text-decoration: none;
+    color: var(--primary-white);
+    display: block;
+}
+
 /* Switches */
 .upper-switches {
     margin-top: 2vh;

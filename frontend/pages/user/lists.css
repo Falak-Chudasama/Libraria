@@ -1,0 +1,16 @@
+@import url("../styles/global.css");
+
+main {
+    margin-top: 10vh;
+    width: var(--full-width-minus-padding);
+    padding-inline: var(--default-padding);
+}
+
+.section {
+    margin-bottom: 5vh;
+}
+
+h1 {
+    font-family: "Playfair Display";
+    user-select: none;
+}

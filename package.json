@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "app": "node src/index.js --force",
-    "napp": "nodemon src/index.js --no-interactive"
+    "napp": "nodemon src/index.js --no-interactive",
+    "clear-logs": ": > application.log && : > errors.log && : > access.log"
   },
   "keywords": [],
   "author": "",

@@ -82,7 +82,21 @@ nav {
     font-family: "Playfair Display";
     color: var(--primary-white);
     font-weight: 500;
-    font-size: 8vh;
+    font-size: 2.8rem;
+}
+
+.left-hero button {
+    background-color: var(--primary-white);
+    color: var(--primary-black);
+    font-size: 1rem;
+    font-weight: 500;
+    padding-inline: 40px;
+    padding-block: 2px;
+    margin-top: 4vh;
+}
+
+.left-hero button:hover {
+    scale: 1.05;
 }
 
 .hero-section-books {

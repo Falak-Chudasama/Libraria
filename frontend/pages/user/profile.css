@@ -73,14 +73,14 @@ main {
 .lower-subsections {
     width: inherit;
     display: flex;
-    align-items: baseline;
+    align-items: flex-end;
     justify-content: space-between;
     column-gap: 30px;
 }
 
 .subsection {
-    width: 200px;
-    height: 30vh;
+    /* width: 200px; */
+    height: auto;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
@@ -88,4 +88,29 @@ main {
 
 .profile-subsection {
     background: linear-gradient(180deg, #F6F6F6 0%, #FFBEBE 100%);
+}
+
+.profile-subsection {
+    display: grid;
+    place-items: center;
+    width: 25vw;
+    height: auto;
+}
+
+.profile-upper {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.profile-upper {
+    margin-top: -50px;
+}
+
+.user-profile-bigger {
+    background-color: orange;
+    border-radius: 100%;
+    border: 3px solid var(--primary-black);
+    height: 100px;
+    width: 100px;
 }

@@ -1,11 +1,33 @@
 const baseOrigin = window.location.origin;
 
-const dashboard = document.getElementById('dashboard');
+const dashboard = document.getElementById('dashboard'); // add bgimage of user dashboard
 const homeBtn = document.getElementById('home-button');
+const userProfile = document.getElementById('user-profile-bigger'); // add bgimage of user profile
+const firstName = document.getElementById('first-name')
+const lastName = document.getElementById('last-name')
+const email = document.getElementById('email');
+const phoneNumber = document.getElementById('phone-number');
+const house = document.getElementById('house');
+const street = document.getElementById('street');
+const city = document.getElementById('city');
+const state = document.getElementById('state');
+const bio = document.getElementById('bio');
+const readRecentlyBooks = document.getElementById('read-recently-books'); // add divs with class 'read-recently-book'
+const booksRead = document.getElementById('books-read');
+const favGenre = document.getElementById('fav-genre');
+const currentBook = document.getElementById('current-book');
+const favBook = document.getElementById('fav-book');
+
 
 document.addEventListener('DOMContentLoaded', () => {
-    let url = "http://localhost:3000/uploads/users/dashboard/arthurMorganDashboard.jpg";
-    dashboard.style.background = `url(${url}) lightgray 50% / cover no-repeat`;
+    let url = "http://localhost:3000/uploads/users";
+    dashboard.style.background = `url(${url}/dashboard/arthurMorganDashboard.jpg) black 50% / cover no-repeat`;
+    userProfile.style.background = `url(${url}/profile/arthur_morgan.png)  black 50% / cover no-repeat`
+
+    firstName.innerText = 'Arthur';
+    lastName.innerText = 'Morgan';
+    email.innerText = 'arthur@gmail.com';
+    phoneNumber.innerText = '+91 12345 67890';
 });
 
 homeBtn.addEventListener('click', (event) => {

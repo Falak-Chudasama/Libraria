@@ -53,11 +53,10 @@ main {
 }
 
 .index-section {
-    width: 70vw;
+    width: 75vw;
     position: relative;
     display: grid;
-    row-gap: 5vh;
-    margin-top: 7vh;
+    row-gap: 3vh;
     margin-left: 50%;
     transform: translateX(-50%);
 }
@@ -65,8 +64,8 @@ main {
 .upper-subsections {
     width: inherit;
     display: flex;
-    align-items: baseline;
     justify-content: space-between;
+    margin-top: 2vh;
     column-gap: 30px;
 }
 
@@ -79,22 +78,52 @@ main {
 }
 
 .subsection {
-    /* width: 200px; */
-    height: auto;
+    width: 20vw;
+    height: 16vw;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
-}
-
-.profile-subsection {
-    background: linear-gradient(180deg, #F6F6F6 0%, #FFBEBE 100%);
+    padding: 20px;
 }
 
 .profile-subsection {
     display: grid;
     place-items: center;
-    width: 25vw;
-    height: auto;
+    background: linear-gradient(180deg, #F6F6F6 0%, #FFBEBE 100%);
+}
+
+.address-subsection {
+    display: grid;
+    align-content: space-between;
+    width: 22vw;
+}
+
+.bio-subsection {
+    width: 30vw;
+    display: grid;
+    align-content: space-between;
+}
+
+.read-recently-subsection {
+    display: grid;
+    align-content: space-between;
+    width: 30vw;
+}
+
+.stats-subsection {
+    display: grid;
+    align-content: space-between;
+    flex-grow: 1;
+}
+
+.subsection:hover {
+    scale: 1.03;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.profile-subsection:hover .user-profile-bigger {
+    scale: 1.02;
+    transform: translateY(-5%);
 }
 
 .profile-upper {
@@ -111,6 +140,102 @@ main {
     background-color: orange;
     border-radius: 100%;
     border: 3px solid var(--primary-black);
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
+}
+
+.profile-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 25px;
+}
+
+.profile-middle h1 {
+    font-family: "Playfair Display";
+    font-size: 30px;
+}
+
+.profile-middle .last-name {
+    color: var(--accent-red);
+}
+
+.profile-lower h4 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.profile-lower #email {
+    color: var(--accent-red);
+}
+
+.subsection h1 {
+    font-family: "Playfair Display";
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.key-value {
+    display: flex;
+    align-items: center;
+}
+
+.key {
+    font-size: 18px;
+    font-weight: 300;
+    margin-right: 20px;
+}
+
+.value {
+    color: var(--accent-red);
+    font-size: 18px;
+    font-weight: 275;
+}
+
+.address-heading,
+.bio-heading
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.address-heading,
+.bio-heading,
+.read-recently-heading,
+.stats-heading {
+    margin-bottom: 20px;
+}
+
+.pen {
+    height: 25px;
+    cursor: pointer;
+}
+
+.pen:hover {
+    scale: 1.15;
+}
+
+.bio {
+    font-size: 12px;
+    font-weight: 275;
+}
+
+.read-recently-books {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: 10px;
+}
+
+.read-recently-book {
+    background-color: orange;
+    height: var(--small-book-h);
+    width: var(--small-book-w);
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.15);
+}
+
+.read-recently-book:hover {
+    scale: 1.05;
 }

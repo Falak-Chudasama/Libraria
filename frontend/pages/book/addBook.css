@@ -1,0 +1,208 @@
+@import url("../styles/global.css");
+
+body {
+    background-color: var(--primary-white);
+}
+
+main {
+    padding: var(--default-padding);
+}
+
+#admin-profile {
+    background: url("../../assets/images/augustus-caesar.jpg") lightgray 50% / cover no-repeat;
+}
+
+#admin-profile:hover {
+    scale: 1.05;
+}
+
+.page-heading-div {
+    margin-bottom: 10vh;
+}
+
+.page-heading {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.black-h1 {
+    font-family: "Playfair Display";
+    color: var(--primary-black);
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.red-h1 {
+    font-family: "Playfair Display";
+    color: var(--accent-red);
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.page-heading-div p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FIELDS STYLES */
+form {
+    display: grid;
+    row-gap: 35px;
+    place-items: start;
+}
+
+.fields {
+    gap: 30px;
+}
+
+.input-fields {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: 2vw;
+}
+
+.fields-pair {
+    width: var(--field-full-length);
+    justify-content: space-between;
+}
+
+.field label {
+    height: fit-content;
+    width: fit-content;
+    padding: 0 5px 0 5px;
+    background-color: var(--primary-white);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -14px;
+    margin-left: 15px;
+}
+
+input::placeholder {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.field input {
+    border: 2.5px solid var(--primary-black);
+    border-radius: 1.5vh;
+    font-weight: 500;
+    padding-left: 20px;
+}
+.field textarea {
+    border: 2.5px solid var(--primary-black);
+    border-radius: 1.5vh;
+    font-weight: 500;
+    padding-inline: 20px;
+    padding-top: 10px;
+}
+
+.field textarea:focus,
+.field textarea:hover {
+    border-color: var(--accent-red);
+}
+
+.field textarea:focus,
+.field textarea:hover {
+    border-color: var(--accent-red);
+}
+
+.field:has(textarea:focus) {
+    scale: var(--hover-scale);
+}
+
+.field:has(textarea:focus) label,
+.field:has(textarea:hover) label {
+    color: var(--accent-red);
+}
+
+.input1 {
+    width: 20vw;
+    height: 7vh;
+}
+.input2 {
+    width: 12vw;
+    height: 7vh;
+}
+.input3 {
+    width: 16vw;
+    height: 7vh;
+}
+
+textarea {
+    width: 20vw;
+    height: 10vh;
+}
+
+.add-book-btn {
+    background-color: var(--primary-black);
+    color: var(--primary-white);
+    width: 22vw;
+    font-size: 3vh;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.5vw;
+    padding-inline: 1.5vw;
+    padding-block: 0.5vw;
+}
+
+.add-book-btn:hover {
+    width: 25vw;
+}

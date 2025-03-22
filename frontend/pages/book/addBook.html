@@ -5,9 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Book</title>
     <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="./addBook.css">
 </head>
 <body>
-    <h1>Add Book Page</h1>
+    <nav>
+        <img src="../../assets/icons/libraria_white.svg" alt="libraria logo" class="circular-image non-selectable">
+        <div class="a-links flex-box">
+            <a href="" class="homeATag default-link">Home</a>
+            <a href="" class="historyATag default-link">History</a>
+            <a href="" class="wishListATag default-link">Wishlist</a>
+        </div>
+        <div id="admin-profile" class="profile-image-white non-selectable"></div>
+    </nav>
+
+    <main>
+        <div class="page-heading-div">
+            <div class="page-heading">
+                <h1 class="black-h1">One</h1>
+                <h1 class="red-h1">Book,</h1>
+                <h1 class="black-h1">Many</h1>
+                <h1 class="red-h1">Readers...</h1>
+            </div>
+            <p>Add the following details to add the book to the catalog</p>
+        </div>
+        <form action="">
+            <div class="input-fields">
+                <div class="field relative-position">
+                    <label for="title" class="field-name non-selectable absolute-position">Title</label>
+                    <input type="text" id="title" name="title" class="input1" placeholder="Eg: Atomic Habits" required>
+                </div>
+                <div class="field relative-position">
+                    <label for="author" class="field-name non-selectable absolute-position">Author</label>
+                    <input type="text" id="author" name="author" class="input1" placeholder="Eg: James Clear" required>
+                </div>
+                <div class="field relative-position">
+                    <label for="isbn" class="field-name non-selectable absolute-position">ISBN</label>
+                    <input type="text" id="isbn" name="isbn" class="input1" placeholder="Eg: 978-3-16-148410-0" required>
+                </div>
+            </div>
+            <div class="input-fields">
+                <div class="field relative-position">
+                    <label for="cost" class="field-name non-selectable absolute-position">Cost</label>
+                    <input type="number" id="cost" name="cost" class="input2" placeholder="Eg: 5$" max="30" min="1" required>
+                </div>
+                <div class="field relative-position">
+                    <label for="copies" class="field-name non-selectable absolute-position">Copies</label>
+                    <input type="number" id="copies" name="copies" class="input2" placeholder="Eg: 10" min="1" required>
+                </div>
+                <div class="field relative-position">
+                    <label for="pages" class="field-name non-selectable absolute-position">Pages</label>
+                    <input type="number" id="pages" name="pages" class="input2" placeholder="Eg: 250" min="1" required>
+                </div>
+                <div class="field relative-position">
+                    <label for="publishment-year" class="field-name non-selectable absolute-position">Publishment Year</label>
+                    <input type="number" id="publishment-year" name="publishment-year" class="input3" placeholder="Eg: 2016" min="1920" max="2025" required>
+                </div>
+            </div>
+            <div class="input-fields">
+                <div class="field relative-position">
+                    <label for="genre" class="field-name non-selectable absolute-position">Genre</label>
+                    <input type="text" id="genre" name="genre" class="input3" placeholder="Eg: Fiction" required>
+                </div>
+                <div class="field relative-position">
+                    <label for="edition" class="field-name non-selectable absolute-position">Edition</label>
+                    <input type="text" id="edition" name="edition" class="input3" placeholder="Eg: Paperback" required>
+                </div>
+                <div class="field relative-position">
+                    <label for="cover-image" class="field-name non-selectable absolute-position">Cover Image</label>
+                    <input type="file" id="cover-image" name="cover-image" class="input3" required>
+                </div>
+            </div>
+            <div class="input-fields">
+                <div class="field relative-position">
+                    <label for="summary" class="field-name non-selectable absolute-position">Summary</label>
+                    <textarea name="summary" id="summary"></textarea required>
+                </div>
+                <div class="field relative-position">
+                    <label for="description" class="field-name non-selectable absolute-position">Description</label>
+                    <textarea name="description" id="description"></textarea required>
+                </div>
+            </div>
+            <button type="submit" class="add-book-btn" id="add-book-btn">Add Book</button>
+        </form>
+    </main>
 
     <script src="../scripts/global.js"></script>
 </body>

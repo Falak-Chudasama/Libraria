@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     function setHref(className, path) {
         const aTags = document.getElementsByClassName(className);
         Array.from(aTags).forEach(aTag => {
-            aTag.setAttribute('href', `${baseUrl}/${path}`);
+            aTag.setAttribute('href', `${urlOrigin}/${path}`);
         });
     }
 

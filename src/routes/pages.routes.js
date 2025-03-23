@@ -51,6 +51,9 @@ pageRouter.get('/login', (req, res) => {
 pageRouter.get('/signin', (req, res) => {
     return res.sendFile(path.join(authentication_pages_dir, 'signin.html'));
 });
+pageRouter.get('/register', (req, res) => {
+    return res.sendFile(path.join(authentication_pages_dir, 'signup1.html'));
+});
 pageRouter.get('/signup', (req, res) => {
     return res.sendFile(path.join(authentication_pages_dir, 'signup1.html'));
 });

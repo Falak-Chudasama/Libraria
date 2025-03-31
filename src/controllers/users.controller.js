@@ -38,6 +38,7 @@ const addUserOneUtil = async (user, bypass) => {
             address: {
                 house: user.address.house,
                 street: user.address.street,
+                landmark: user.address.landmark,
                 city: user.address.city,
                 state: user.address.state,
                 zipCode: user.address.zipCode

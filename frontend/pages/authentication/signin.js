@@ -7,9 +7,6 @@ const urlOrigin = window.location.origin;
 
 const formSubmission = async (event) => {
     event.preventDefault();
-    console.log('form was submitted');
-    console.log('username: ' + username.value);
-    console.log('password: ' + password.value);
     const response = await loginHandling(username.value, password.value);
     console.log(response);
     if (response && response.startsWith('Successfully')) {
@@ -49,19 +46,22 @@ const loginHandling = async (username, password) => {
                 "Content-Type": "application/json",
             },
             body: JSON.stringify({ username, password })
+        })
+        .then(data => data.json())
+        .then(data => data)
+        .catch(err => {
+            throw new Error(err);
         });
-        
-        const data = await response.json();
 
-        if (!data?.user) {
-            throw new Error(data?.error || "Login Failed");
+        if (!response?.user) {
+            throw new Error(response?.error || "Login Failed");
         }
 
-        sessionStorage.setItem('user', JSON.stringify(data.user));
-        sessionStorage.setItem('accessToken', data.accessToken);
-        localStorage.setItem('refreshToken', data.refreshToken);
+        sessionStorage.setItem('user', JSON.stringify(response.user));
+        sessionStorage.setItem('accessToken', response.accessToken);
+        localStorage.setItem('refreshToken', response.refreshToken);
 
-        return data.message;
+        return response?.message;
     } catch (err) {
         console.log(err);
     }

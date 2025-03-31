@@ -58,10 +58,6 @@ const registerUser = async (userObject) => {
 
         console.log(response);
 
-        // if (!response.user || !response.accessToken || !response.refreshToken) {
-        //     throw new Error('Registration was unsuccessful: ' + response?.user);
-        // }
-    
         localStorage.clear();
         sessionStorage.clear();
         sessionStorage.setItem('user', JSON.stringify(response.user));

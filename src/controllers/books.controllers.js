@@ -7,6 +7,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 const imageUrlBase = `http://localhost:${process.env.PORT}/uploads/books/`;
+const topBooksLimit = dotenv.TOP_BOOKS_LIMIT;
 
 // utils
 const addBookOneUtil = async (book, imageUrl, bypass) => {
@@ -91,6 +92,23 @@ const findBookByTitleUtil = async (title) => {
     } catch (err) {
         winstonLogger.error(`Util: Error while fetching book with title '${title}' - ${err.message}`);
         throw new Error(`Error while fetching book with title '${title}' - ` + err.message);
+    }
+};
+
+const findTopBooksUtil = async () => {
+    try {
+        winstonLogger.info("Util: Attempting to fetch top books");
+
+        const topBooks = await Books.find().sort({ records: -1 }).limit(topBooksLimit);
+        if (topBooks == null || topBooks.length === 0) {
+            throw new Error('No top books were found');
+        }
+
+        winstonLogger.info("Util: Top Books successfully fetched");
+        return topBooks;
+    } catch (err) {
+        winstonLogger.error(`Util: Error while fetching top books - ${err.message}`);
+        throw new Error('Error while fetching top books - ' + err.message);
     }
 };
 
@@ -418,6 +436,23 @@ const findBookByTitle = async (req, res) => {
     }
 };
 
+const findTopBooks = async (req, res) => {
+    try {
+        winstonLogger.info("Attempting to fetch all top books");
+        const topBooks = await findTopBooksUtil();
+
+        if (topBooks == null || topBooks.length === 0) {
+            winstonLogger.error("No top books were found in the database");
+            return res.status(404).json({ message: 'No Top Books were found' });
+        }
+
+        winstonLogger.info(`${topBooks.length} top books fetched successfully`);
+        return res.status(200).json(topBooks);
+    } catch (err) {
+        winstonLogger.error(`Error while fetching top books: ${err.message}`);
+        return res.status(400).json({ error: err.message });
+    }
+};
 
 // PATCH operations
 const updateAddBook = async (req, res) => {
@@ -560,6 +595,8 @@ export {
     findBooks,
     findBookByTitleUtil,
     findBookByTitle,
+    findTopBooksUtil,
+    findTopBooks,
     updateAddBookUtil,
     updateAddBook,
     updateSubBookUtil,

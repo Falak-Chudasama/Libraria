@@ -11,6 +11,8 @@ dotenv.config();
 const imageUrlBase = `http://localhost:${process.env.PORT}/uploads/users/`;
 const ADMIN_USERNAME = (process.env.ADMIN_USERNAME).toString();
 const ADMIN_PASSWORD = (process.env.ADMIN_PASSWORD).toString();
+const ADMIN_FN = (process.env.ADMIN_FN).toString();
+const ADMIN_LN = (process.env.ADMIN_LN).toString();
 const selectedFields = 'username firstName lastName profileImage -_id';
 
 // utils
@@ -439,7 +441,7 @@ const loginUser = async (req, res) => {
         if (username === ADMIN_USERNAME && password === ADMIN_PASSWORD) {
             const { accessToken, refreshToken } = await generateTokensUtil(username);
             winstonLogger.info(`Admin logged in successfully`);
-            return res.status(200).json({ accessToken, refreshToken, message: `Admin logged in successfully` });
+            return res.status(200).json({ username: ADMIN_USERNAME, firstName: ADMIN_FN, lastName: ADMIN_LN, accessToken, refreshToken, message: `Admin logged in successfully` });
         } else if (username === ADMIN_USERNAME && password !== ADMIN_PASSWORD) {
             winstonLogger.error('Admin entered wrong password');
             return res.status(401).json({ message: `User with username '${username}' entered wrong password` });

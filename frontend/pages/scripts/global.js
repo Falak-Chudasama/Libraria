@@ -1,4 +1,5 @@
-const baseUrl = window.location.origin;
+import { baseUrl } from './constants.js';
+
 const profileBtn = document.getElementById('user-profile');
 
 profileBtn.addEventListener('click', (event) => {

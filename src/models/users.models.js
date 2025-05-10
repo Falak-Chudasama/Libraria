@@ -99,8 +99,20 @@ const UserSchema = new mongoose.Schema({
     dashboardImage: {
         type: String,
         default: null
+    },
+    favoriteGenres: {
+        type: [{
+            genre: {
+                type: String,
+                required: true
+            },
+            count: {
+                type: Number,
+                default: 1
+            }
+        }],
+        default: []
     }
-    
 }, { timestamps: true });
 
 const Users = mongoose.model('Users', UserSchema);

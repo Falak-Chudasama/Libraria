@@ -4,4 +4,4 @@ access.log
 application.log
 errors.log
 .TODO
-/uploads
+uploads/

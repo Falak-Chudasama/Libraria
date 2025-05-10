@@ -25,7 +25,7 @@ const addBookOneUtil = async (book, imageUrl, bypass) => {
             }
         }
 
-        const bookId = (book.title).trim().toLowerCase().replace('/\s+/g', '_').replcae('/^[a-z0-9]/g', '');
+        const bookId = (book.title).trim().toLowerCase().replace(/\s+/g, '_').replace('/^[a-z0-9]/g', '');
         const cost = Number(book.cost);
         const copies = Number(book.totalCopies);
 
@@ -33,12 +33,12 @@ const addBookOneUtil = async (book, imageUrl, bypass) => {
             bookId: bookId,
             title: book.title,
             author: book.author,
-            miniDescription: book.miniDescription,
+            summary: book.summary,
             description: book.description,
             cost,
             totalCopies: copies,
             availableCopies: copies,
-            pages: book?.pages | 100,
+            pages: book?.pages === null ? 100 : book.pages,
             genre: book.genre,
             isbn: book.isbn,
             publishmentYear: book?.publishmentYear,

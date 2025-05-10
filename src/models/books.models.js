@@ -8,8 +8,8 @@ const maxUsernameLength = 20;
 const minLength = 3;
 const maxLength = 100;
 
-const miniDescriptionMinLength = 10;
-const miniDescriptionMaxLength = 100;
+const summaryMinLength = 10;
+const summaryMaxLength = 100;
 
 const descriptionMinLength = 50;
 const descriptionMaxLength = 400;
@@ -38,12 +38,12 @@ const BookSchema = new mongoose.Schema({
         minLength: [minLength, "Author's name must be at least " + minLength + " characters long"],
         maxLength: [maxLength, "Author's name should not exceed " + maxLength + " characters"]
     },
-    miniDescription: { // f2 into summary
+    summary: { // f2 into summary
         type: String,
-        required: [true, 'Book Mini Description is required'],
+        required: [true, 'Book Summary is required'],
         trim: true,
-        minLength: [miniDescriptionMinLength, "Book's Mini Description must be at least " + miniDescriptionMinLength + " characters long"],
-        maxLength: [miniDescriptionMaxLength, "Books's Mini Description should not exceed " + miniDescriptionMaxLength + " characters"]
+        minLength: [summaryMinLength, "Book's Summary must be at least " + summaryMinLength + " characters long"],
+        maxLength: [summaryMaxLength, "Books's Summary should not exceed " + summaryMaxLength + " characters"]
     },
     description: {
         type: String,

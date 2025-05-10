@@ -21,8 +21,7 @@ const mobileNoRegex = /^\d{10}$/;
 const zipCodeRegex = /^\d{5}$/;
 
 // User Schema
-// TODO: Thinkg of adding an array of three elements having genres that could be used to recommend the user the books of their fav genres
-// TOD: Remove bio
+// TODO: Think of adding an array of three elements having genres that could be used to recommend the user the books of their fav genres
 const UserSchema = new mongoose.Schema({
     username: { // pseudo primary key
         type: String,
@@ -101,6 +100,7 @@ const UserSchema = new mongoose.Schema({
         type: String,
         default: null
     }
+    
 }, { timestamps: true });
 
 const Users = mongoose.model('Users', UserSchema);

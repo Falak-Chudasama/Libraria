@@ -1,4 +1,10 @@
 const baseUrl = window.location.origin;
+const profileBtn = document.getElementById('user-profile');
+
+profileBtn.addEventListener('click', (event) => {
+    event.preventDefault();
+    window.location.href = `${baseUrl}/profile`
+});
 
 document.addEventListener('DOMContentLoaded', (event) => {
     function setHref(className, path) {

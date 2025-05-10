@@ -4,8 +4,6 @@ import winstonLogger from "../utils/logger.utils.js";
 import dotenv from 'dotenv';
 
 // TODO: suppose a book is deleted then the records of that book must be deleted too
-// TODO: think of adding publishment year of the book
-// TODO: think of adding searchId
 
 dotenv.config();
 const imageUrlBase = `http://localhost:${process.env.PORT}/uploads/books/`;
@@ -27,10 +25,12 @@ const addBookOneUtil = async (book, imageUrl, bypass) => {
             }
         }
 
+        const bookId = (book.title).trim().toLowerCase().replace('/\s+/g', '_').replcae('/^[a-z0-9]/g', '');
         const cost = Number(book.cost);
         const copies = Number(book.totalCopies);
 
         const newBook = await Books.create({
+            bookId: bookId,
             title: book.title,
             author: book.author,
             miniDescription: book.miniDescription,
@@ -38,7 +38,11 @@ const addBookOneUtil = async (book, imageUrl, bypass) => {
             cost,
             totalCopies: copies,
             availableCopies: copies,
+            pages: book?.pages | 100,
             genre: book.genre,
+            isbn: book.isbn,
+            publishmentYear: book?.publishmentYear,
+            edition: book?.edition,
             borrowers: book?.borrowers || [],
             records: book?.records || [],
             coverImage: imageUrl

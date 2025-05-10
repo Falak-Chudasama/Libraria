@@ -14,10 +14,15 @@ const miniDescriptionMaxLength = 100;
 const descriptionMinLength = 50;
 const descriptionMaxLength = 400;
 
-// TODO: add totalBorrows, publishmentYear, noOfPages and ISBN, edition.
-// TODO: consider adding an id like thing for easy search the books by title
-
 const BookSchema = new mongoose.Schema({
+    bookId: {
+        type: String,
+        required: [true, 'BookId is required'],
+        unique: [true, 'BookId must be unique'],
+        trim: true,
+        minLength: [minLength, 'BookId must be at least ' + minLength + ' characters long'],
+        maxLength: [maxLength, 'BookId should not exceed ' + maxLength + ' characters']
+    },
     title: { // pseudo primary key
         type: String,
         required: [true, 'Book Title is required'],
@@ -32,12 +37,6 @@ const BookSchema = new mongoose.Schema({
         trim: true,
         minLength: [minLength, "Author's name must be at least " + minLength + " characters long"],
         maxLength: [maxLength, "Author's name should not exceed " + maxLength + " characters"]
-    },
-    searchId: {
-        type: String,
-        required: [true, 'Search ID is required'],
-        unique: [true, 'Search ID must be unique'],
-        trim: true
     },
     miniDescription: { // f2 into summary
         type: String,
@@ -67,12 +66,34 @@ const BookSchema = new mongoose.Schema({
         type: Number,
         default: 1
     },
+    pages: {
+        type: Number,
+        default: 100,
+    },
     genre: {
         type: String,
         required: [true, 'Book Genre is required'],
         trim: true,
         minLength: [minLength, 'Genre must be at least ' + minLength + ' characters long'],
         maxLength: [maxLength, 'Genre should not exceed ' + maxLength + ' characters']
+    },
+    isbn: {
+        type: String,
+        required: [true, 'Book ISBN code is required'],
+        trim: true,
+    },
+    publishmentYear: {
+        type: Number,
+        required: [true, 'Publishment year is required']
+    },
+    edition: {
+        type: String,
+        trim: true,
+        default: 'Paperback'
+    },
+    totalBorrows: {
+        type: Number,
+        defualt: 0
     },
     borrowers: [{
         type: String,
@@ -92,12 +113,12 @@ const BookSchema = new mongoose.Schema({
 const Books = mongoose.model('Books', BookSchema);
 
 const allBookFields = [
-    'title', 'author', 'miniDescription', 'description', 'cost',
-    'totalCopies', 'availableCopies', 'genre', 'borrowers', 'records', 'coverImage'
+    'bookId', 'title', 'author', 'miniDescription', 'description', 'cost', 'isbn',
+    'totalCopies', 'availableCopies', 'pages', 'genre', 'publishmentYear', 'borrowers', 'edition', 'totalBorrows', 'records', 'coverImage'
 ];
 const bookFieldsInputs = [
-    'title', 'author', 'miniDescription', 'description', 'cost',
-    'totalCopies', 'availableCopies', 'genre', 'coverImage'
+    'bookId','title', 'author', 'miniDescription', 'description', 'cost', 'isbn',
+    'totalCopies', 'availableCopies', 'genre', 'publishmentYear', 'coverImage'
 ];
 
 /* Input Object :

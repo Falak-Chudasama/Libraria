@@ -11,6 +11,7 @@ dotenv.config();
 const imageUrlBase = `http://localhost:${process.env.PORT}/uploads/users/`;
 const ADMIN_USERNAME = (process.env.ADMIN_USERNAME).toString();
 const ADMIN_PASSWORD = (process.env.ADMIN_PASSWORD).toString();
+const selectedFields = 'username firstName lastName profileImage -_id';
 
 // utils
 const addUserOneUtil = async (user, bypass) => {
@@ -133,6 +134,42 @@ const findUserByMobileNoUtil = async (mobileNo) => {
         throw new Error('Error while fetching user via mobile number: ' + err.message);
     }
 };
+
+const findOtherUserUtil = async (username) => {
+    try {
+        winstonLogger.info(`Util: Attempting to fetch other user with username: ${username}`);
+
+        const otherUser = await Users.findOne({ username }).select(selectedFields);
+        if (!otherUser) {
+            winstonLogger.error(`Util: User with other username '${username}' not found`);
+            throw new Error(`User with username '${username}' not found`);
+        }
+
+        winstonLogger.info("Util: Successfully fetched other user with username: " + username);
+        return otherUser;
+    } catch (err) {
+        winstonLogger.error(`Util: Error while fetching other user by username - ${err.message}`);
+        throw new Error('Error while fetching other user by username - ' + err.message);
+    }
+}
+
+const findOtherUsersUtil = async () => {
+    try {
+        winstonLogger.info("Util: Attempting to fetch all other users");
+
+        const otherUsers = await Users.find({}).select(selectedFields);
+        if (otherUsers === null || otherUsers.length === 0) {
+            winstonLogger.error("Util: No other users found");
+            throw new Error('No other users found');
+        }
+
+        winstonLogger.info("Util: Successfully fetched all other users");
+        return otherUsers;
+    } catch (err) {
+        winstonLogger.error(`Util: Error while fetching all other users - ${err.message}`);
+        throw new Error('Error while fetching all other users - ' + err.message);
+    }
+}
 
 const updateUploadImageUtil = async (username, imageType, imageUrl, bypass) => {
     try {
@@ -453,7 +490,6 @@ const findUsers = async (req, res) => {
     }
 };
 
-
 const findUserByUsername = async (req, res) => {
     if (!req.user) {
         winstonLogger.error('User was not authenticated');
@@ -528,6 +564,47 @@ const findUserByMobileNo = async (req, res) => {
         return res.status(500).json({ error: 'Internal server error while fetching user' });
     }
 };
+
+const findOtherUser = async (req, res) => {
+    try {
+        const username = req.params.username;
+        winstonLogger.info(`Fetching other user by username: ${username}`);
+
+        const otherUser = await findOtherUserUtil(username);
+
+        if (!otherUser) {
+            winstonLogger.error(`Other User with username '${username}' not found`);
+            return res.status(404).json({ message: `Other User with username '${username}' not found` });
+        }
+
+        winstonLogger.info(`Other User with username '${username}' fetched successfully`);
+        return res.status(200).json({ user: otherUser, message: `Successfully fetched other user '${otherUser.username}'` });
+    } catch (err) {
+        if (err.message.includes('not found')) {
+            winstonLogger.error(`Other User with username '${username}' not found`);
+            return res.status(404).json({ message: `Other User with username '${username}' not found` });
+        }
+        winstonLogger.error(`Error fetching other user by username '${username}': ${err.message}`);
+        return res.status(500).json({ error: 'Internal server error while fetching other user: ' + err.message });
+    }
+}
+
+const findOtherUsers = async (req, res) => {
+    try {
+        winstonLogger.info("Fetching all other users");
+        const users = await findOtherUsersUtil();
+
+        winstonLogger.info('Successfully fetched other users');
+        return res.status(200).json(users);
+    } catch (err) {
+        if (err.message.includes('No other users found')) {
+            winstonLogger.info("No other users found");
+            return res.status(404).json({ message: 'No other users were found' });
+        }
+        winstonLogger.error(`Error fetching other users: ${err.message}`);
+        return res.status(500).json({ error: 'Internal server error while fetching other users' });
+    }
+}
 
 // PATCH operation
 const updateUploadImage = async (req, res) => {
@@ -685,6 +762,10 @@ export {
     findUserByEmail,
     findUserByMobileNoUtil,
     findUserByMobileNo,
+    findOtherUserUtil,
+    findOtherUser,
+    findOtherUsersUtil,
+    findOtherUsers,
     updateUploadImageUtil,
     updateUploadImage,
     updateUserBorrowsBookUtil,
